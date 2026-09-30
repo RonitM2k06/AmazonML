@@ -1,0 +1,556 @@
+{
+  "metadata": {
+    "project": "Amazon ML Challenge 2026 - Business Entity Resolution",
+    "timestamp": "2026-09-25 20:06:56",
+    "dataset_root": "C:\\Users\\ronit\\Videos\\hackathons\\AmazonML\\amazon-ml-challenge\\dataset",
+    "total_elapsed_seconds": 44.93
+  },
+  "sources": {
+    "train_source1": {
+      "file_name": "train_source1.tsv",
+      "file_path": "C:\\Users\\ronit\\Videos\\hackathons\\AmazonML\\amazon-ml-challenge\\dataset\\train\\train_source1.tsv",
+      "file_size_bytes": 210069713,
+      "file_size_mb": 200.34,
+      "row_count": 2206821,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "inferred_data_types": {
+        "entity_id": "string (categorical / primary key)",
+        "business_name": "string (text)",
+        "business_address": "string (text)",
+        "country": "string (categorical)"
+      },
+      "malformed_rows": 0,
+      "unique_entity_ids": 2206821,
+      "duplicate_entity_ids": 0,
+      "missing_values": {
+        "entity_id": {
+          "count": 0,
+          "percentage": 0.0
+        },
+        "business_name": {
+          "count": 0,
+          "percentage": 0.0
+        },
+        "business_address": {
+          "count": 0,
+          "percentage": 0.0
+        },
+        "country": {
+          "count": 0,
+          "percentage": 0.0
+        }
+      },
+      "country_distribution": {
+        "US": {
+          "count": 1323633,
+          "percentage": 59.98
+        },
+        "India": {
+          "count": 883188,
+          "percentage": 40.02
+        }
+      },
+      "business_name_length": {
+        "min": 3,
+        "max": 105,
+        "mean": 24.03,
+        "std": 7.74,
+        "median": 24,
+        "p25": 18,
+        "p50": 24,
+        "p75": 30,
+        "p90": 34,
+        "p95": 37,
+        "p99": 42
+      },
+      "business_address_length": {
+        "min": 11,
+        "max": 256,
+        "mean": 52.07,
+        "std": 25.33,
+        "median": 41,
+        "p25": 33,
+        "p50": 41,
+        "p75": 70,
+        "p90": 90,
+        "p95": 103,
+        "p99": 124
+      },
+      "profile_elapsed_seconds": 3.47
+    },
+    "train_source2": {
+      "file_name": "train_source2.tsv",
+      "file_path": "C:\\Users\\ronit\\Videos\\hackathons\\AmazonML\\amazon-ml-challenge\\dataset\\train\\train_source2.tsv",
+      "file_size_bytes": 489301488,
+      "file_size_mb": 466.63,
+      "row_count": 5034616,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "inferred_data_types": {
+        "entity_id": "string (categorical / primary key)",
+        "business_name": "string (text)",
+        "business_address": "string (text)",
+        "country": "string (categorical)"
+      },
+      "malformed_rows": 0,
+      "unique_entity_ids": 5034616,
+      "duplicate_entity_ids": 0,
+      "missing_values": {
+        "entity_id": {
+          "count": 0,
+          "percentage": 0.0
+        },
+        "business_name": {
+          "count": 0,
+          "percentage": 0.0
+        },
+        "business_address": {
+          "count": 168967,
+          "percentage": 3.3561
+        },
+        "country": {
+          "count": 0,
+          "percentage": 0.0
+        }
+      },
+      "country_distribution": {
+        "India": {
+          "count": 2017799,
+          "percentage": 40.08
+        },
+        "US": {
+          "count": 3016817,
+          "percentage": 59.92
+        }
+      },
+      "business_name_length": {
+        "min": 2,
+        "max": 104,
+        "mean": 25.1,
+        "std": 8.89,
+        "median": 25,
+        "p25": 19,
+        "p50": 25,
+        "p75": 31,
+        "p90": 37,
+        "p95": 40,
+        "p99": 48
+      },
+      "business_address_length": {
+        "min": 8,
+        "max": 249,
+        "mean": 47.83,
+        "std": 23.7,
+        "median": 37,
+        "p25": 31,
+        "p50": 37,
+        "p75": 63,
+        "p90": 84,
+        "p95": 97,
+        "p99": 118
+      },
+      "profile_elapsed_seconds": 8.59
+    },
+    "train_source3": {
+      "file_name": "train_source3.tsv",
+      "file_path": "C:\\Users\\ronit\\Videos\\hackathons\\AmazonML\\amazon-ml-challenge\\dataset\\train\\train_source3.tsv",
+      "file_size_bytes": 503705637,
+      "file_size_mb": 480.37,
+      "row_count": 5285603,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "inferred_data_types": {
+        "entity_id": "string (categorical / primary key)",
+        "business_name": "string (text)",
+        "business_address": "string (text)",
+        "country": "string (categorical)"
+      },
+      "malformed_rows": 0,
+      "unique_entity_ids": 5285603,
+      "duplicate_entity_ids": 0,
+      "missing_values": {
+        "entity_id": {
+          "count": 0,
+          "percentage": 0.0
+        },
+        "business_name": {
+          "count": 0,
+          "percentage": 0.0
+        },
+        "business_address": {
+          "count": 175916,
+          "percentage": 3.3282
+        },
+        "country": {
+          "count": 0,
+          "percentage": 0.0
+        }
+      },
+      "country_distribution": {
+        "US": {
+          "count": 3170056,
+          "percentage": 59.98
+        },
+        "India": {
+          "count": 2115547,
+          "percentage": 40.02
+        }
+      },
+      "business_name_length": {
+        "min": 2,
+        "max": 123,
+        "mean": 25.2,
+        "std": 9.49,
+        "median": 25,
+        "p25": 18,
+        "p50": 25,
+        "p75": 31,
+        "p90": 37,
+        "p95": 42,
+        "p99": 50
+      },
+      "business_address_length": {
+        "min": 2,
+        "max": 240,
+        "mean": 48.32,
+        "std": 20.18,
+        "median": 42,
+        "p25": 35,
+        "p50": 42,
+        "p75": 55,
+        "p90": 78,
+        "p95": 92,
+        "p99": 116
+      },
+      "profile_elapsed_seconds": 10.14
+    },
+    "test_source1": {
+      "file_name": "test_source1.tsv",
+      "file_path": "C:\\Users\\ronit\\Videos\\hackathons\\AmazonML\\amazon-ml-challenge\\dataset\\test\\test_source1.tsv",
+      "file_size_bytes": 175022086,
+      "file_size_mb": 166.91,
+      "row_count": 1732544,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "inferred_data_types": {
+        "entity_id": "string (categorical / primary key)",
+        "business_name": "string (text)",
+        "business_address": "string (text)",
+        "country": "string (categorical)"
+      },
+      "malformed_rows": 0,
+      "unique_entity_ids": 1732544,
+      "duplicate_entity_ids": 0,
+      "missing_values": {
+        "entity_id": {
+          "count": 0,
+          "percentage": 0.0
+        },
+        "business_name": {
+          "count": 0,
+          "percentage": 0.0
+        },
+        "business_address": {
+          "count": 0,
+          "percentage": 0.0
+        },
+        "country": {
+          "count": 0,
+          "percentage": 0.0
+        }
+      },
+      "country_distribution": {
+        "US": {
+          "count": 663106,
+          "percentage": 38.27
+        },
+        "France": {
+          "count": 259452,
+          "percentage": 14.98
+        },
+        "India": {
+          "count": 809986,
+          "percentage": 46.75
+        }
+      },
+      "business_name_length": {
+        "min": 3,
+        "max": 92,
+        "mean": 23.84,
+        "std": 7.67,
+        "median": 24,
+        "p25": 18,
+        "p50": 24,
+        "p75": 29,
+        "p90": 34,
+        "p95": 36,
+        "p99": 42
+      },
+      "business_address_length": {
+        "min": 11,
+        "max": 268,
+        "mean": 57.21,
+        "std": 25.03,
+        "median": 50,
+        "p25": 36,
+        "p50": 50,
+        "p75": 74,
+        "p90": 93,
+        "p95": 105,
+        "p99": 126
+      },
+      "profile_elapsed_seconds": 2.86
+    },
+    "test_source2": {
+      "file_name": "test_source2.tsv",
+      "file_path": "C:\\Users\\ronit\\Videos\\hackathons\\AmazonML\\amazon-ml-challenge\\dataset\\test\\test_source2.tsv",
+      "file_size_bytes": 509456422,
+      "file_size_mb": 485.86,
+      "row_count": 4887273,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "inferred_data_types": {
+        "entity_id": "string (categorical / primary key)",
+        "business_name": "string (text)",
+        "business_address": "string (text)",
+        "country": "string (categorical)"
+      },
+      "malformed_rows": 0,
+      "unique_entity_ids": 4887273,
+      "duplicate_entity_ids": 0,
+      "missing_values": {
+        "entity_id": {
+          "count": 0,
+          "percentage": 0.0
+        },
+        "business_name": {
+          "count": 0,
+          "percentage": 0.0
+        },
+        "business_address": {
+          "count": 129408,
+          "percentage": 2.6479
+        },
+        "country": {
+          "count": 0,
+          "percentage": 0.0
+        }
+      },
+      "country_distribution": {
+        "India": {
+          "count": 2312565,
+          "percentage": 47.32
+        },
+        "France": {
+          "count": 703378,
+          "percentage": 14.39
+        },
+        "US": {
+          "count": 1871330,
+          "percentage": 38.29
+        }
+      },
+      "business_name_length": {
+        "min": 2,
+        "max": 102,
+        "mean": 25.7,
+        "std": 9.12,
+        "median": 25,
+        "p25": 19,
+        "p50": 25,
+        "p75": 32,
+        "p90": 38,
+        "p95": 42,
+        "p99": 49
+      },
+      "business_address_length": {
+        "min": 5,
+        "max": 269,
+        "mean": 51.78,
+        "std": 24.27,
+        "median": 43,
+        "p25": 32,
+        "p50": 43,
+        "p75": 68,
+        "p90": 87,
+        "p95": 99,
+        "p99": 120
+      },
+      "profile_elapsed_seconds": 8.51
+    },
+    "test_source3": {
+      "file_name": "test_source3.tsv",
+      "file_path": "C:\\Users\\ronit\\Videos\\hackathons\\AmazonML\\amazon-ml-challenge\\dataset\\test\\test_source3.tsv",
+      "file_size_bytes": 506002772,
+      "file_size_mb": 482.56,
+      "row_count": 5082316,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "inferred_data_types": {
+        "entity_id": "string (categorical / primary key)",
+        "business_name": "string (text)",
+        "business_address": "string (text)",
+        "country": "string (categorical)"
+      },
+      "malformed_rows": 0,
+      "unique_entity_ids": 5082316,
+      "duplicate_entity_ids": 0,
+      "missing_values": {
+        "entity_id": {
+          "count": 0,
+          "percentage": 0.0
+        },
+        "business_name": {
+          "count": 0,
+          "percentage": 0.0
+        },
+        "business_address": {
+          "count": 136098,
+          "percentage": 2.6779
+        },
+        "country": {
+          "count": 0,
+          "percentage": 0.0
+        }
+      },
+      "country_distribution": {
+        "India": {
+          "count": 2405000,
+          "percentage": 47.32
+        },
+        "France": {
+          "count": 731615,
+          "percentage": 14.4
+        },
+        "US": {
+          "count": 1945701,
+          "percentage": 38.28
+        }
+      },
+      "business_name_length": {
+        "min": 2,
+        "max": 103,
+        "mean": 25.66,
+        "std": 9.57,
+        "median": 25,
+        "p25": 19,
+        "p50": 25,
+        "p75": 32,
+        "p90": 38,
+        "p95": 42,
+        "p99": 50
+      },
+      "business_address_length": {
+        "min": 5,
+        "max": 267,
+        "mean": 50.08,
+        "std": 21.44,
+        "median": 44,
+        "p25": 36,
+        "p50": 44,
+        "p75": 59,
+        "p90": 82,
+        "p95": 95,
+        "p99": 118
+      },
+      "profile_elapsed_seconds": 8.39
+    }
+  },
+  "ground_truth": {
+    "file_name": "train_ground_truth.tsv",
+    "file_path": "C:\\Users\\ronit\\Videos\\hackathons\\AmazonML\\amazon-ml-challenge\\dataset\\train\\train_ground_truth.tsv",
+    "file_size_bytes": 127015583,
+    "file_size_mb": 121.13,
+    "row_count": 2206821,
+    "columns": [
+      "source1_entity_id",
+      "matched_entity_ids"
+    ],
+    "malformed_rows": 0,
+    "unique_source1_entities": 2206821,
+    "duplicate_source1_rows": 0,
+    "singleton_source1_entities": 123247,
+    "singleton_percentage": 5.58,
+    "total_matched_ids": 7638365,
+    "source2_match_count": 3693619,
+    "source3_match_count": 3944746,
+    "maximum_matches_for_single_entity": 11,
+    "entity_with_max_matches": "S1-765235386",
+    "match_distribution": {
+      "0": {
+        "count": 123247,
+        "percentage": 5.58
+      },
+      "1": {
+        "count": 119157,
+        "percentage": 5.4
+      },
+      "2": {
+        "count": 375212,
+        "percentage": 17.0
+      },
+      "3": {
+        "count": 530841,
+        "percentage": 24.05
+      },
+      "4": {
+        "count": 484115,
+        "percentage": 21.94
+      },
+      "5": {
+        "count": 321957,
+        "percentage": 14.59
+      },
+      "6": {
+        "count": 164868,
+        "percentage": 7.47
+      },
+      "7": {
+        "count": 63968,
+        "percentage": 2.9
+      },
+      "8": {
+        "count": 18680,
+        "percentage": 0.85
+      },
+      "9": {
+        "count": 4205,
+        "percentage": 0.19
+      },
+      "10": {
+        "count": 534,
+        "percentage": 0.02
+      },
+      "11": {
+        "count": 37,
+        "percentage": 0.0
+      }
+    },
+    "profile_elapsed_seconds": 2.73
+  }
+}

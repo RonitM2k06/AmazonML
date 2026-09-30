@@ -1,0 +1,2626 @@
+{
+  "parameters": {
+    "max_bucket_size": 1000,
+    "max_candidates_per_s1": 200,
+    "partition_by_country": true
+  },
+  "strategies": [
+    {
+      "strategy_name": "Strategy A1 (Exact Norm)",
+      "key_types": [
+        "exact_norm"
+      ],
+      "blocking_recall": 0.424425,
+      "recovered_true_pairs": 36599,
+      "total_true_pairs": 86232,
+      "total_candidates": 58833,
+      "avg_candidates": 2.35,
+      "median_candidates": 2,
+      "p90": 4,
+      "p95": 8,
+      "p99": 18,
+      "max_candidates": 38,
+      "reduction_ratio": 0.999987,
+      "singleton_empty_rate": 0.8106,
+      "candidates_per_true_match": 1.61,
+      "true_match_density": 0.622083,
+      "cand_by_country": {
+        "US": 2.66,
+        "India": 1.89
+      },
+      "cand_by_cardinality": {
+        "4+": 2.94,
+        "2-3": 2.01,
+        "1": 1.38,
+        "0 (Singleton)": 0.89
+      },
+      "index_stats": {
+        "total_keys": 152384,
+        "total_postings": 186232,
+        "oversized_keys_pruned": 0,
+        "max_bucket_size": 38,
+        "median_bucket_size": 1.0,
+        "mean_bucket_size": 1.22
+      },
+      "top_buckets": [
+        [
+          [
+            "US",
+            "exact_norm",
+            "pediatric dentistry"
+          ],
+          38
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "eye"
+          ],
+          37
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "urgent care"
+          ],
+          35
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "physical therapy"
+          ],
+          34
+        ],
+        [
+          [
+            "India",
+            "exact_norm",
+            "shree"
+          ],
+          33
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "behavioral health"
+          ],
+          32
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "primary care"
+          ],
+          31
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "anchor"
+          ],
+          31
+        ],
+        [
+          [
+            "India",
+            "exact_norm",
+            "kolkata"
+          ],
+          31
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "sirius"
+          ],
+          31
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "northwind"
+          ],
+          31
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "meridian"
+          ],
+          30
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "dermatology"
+          ],
+          29
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "orthopedic"
+          ],
+          27
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "womens health"
+          ],
+          27
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "internal medicine"
+          ],
+          27
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "pediatric dental"
+          ],
+          26
+        ],
+        [
+          [
+            "India",
+            "exact_norm",
+            "mumbai"
+          ],
+          26
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "foot ankle"
+          ],
+          26
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "lantern"
+          ],
+          26
+        ]
+      ],
+      "elapsed_seconds": 2.89
+    },
+    {
+      "strategy_name": "Strategy A2 (Sorted Tokens)",
+      "key_types": [
+        "sorted_tokens"
+      ],
+      "blocking_recall": 0.447583,
+      "recovered_true_pairs": 38596,
+      "total_true_pairs": 86232,
+      "total_candidates": 53261,
+      "avg_candidates": 2.13,
+      "median_candidates": 2,
+      "p90": 4,
+      "p95": 6,
+      "p99": 14,
+      "max_candidates": 40,
+      "reduction_ratio": 0.999989,
+      "singleton_empty_rate": 0.84,
+      "candidates_per_true_match": 1.38,
+      "true_match_density": 0.724658,
+      "cand_by_country": {
+        "US": 2.57,
+        "India": 1.47
+      },
+      "cand_by_cardinality": {
+        "4+": 2.77,
+        "2-3": 1.75,
+        "1": 1.1,
+        "0 (Singleton)": 0.59
+      },
+      "index_stats": {
+        "total_keys": 137651,
+        "total_postings": 172193,
+        "oversized_keys_pruned": 0,
+        "max_bucket_size": 40,
+        "median_bucket_size": 1.0,
+        "mean_bucket_size": 1.25
+      },
+      "top_buckets": [
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "dentistry pediatric"
+          ],
+          40
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "care urgent"
+          ],
+          36
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "physical therapy"
+          ],
+          36
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "care primary"
+          ],
+          35
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "behavioral health"
+          ],
+          35
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "ankle foot"
+          ],
+          30
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "internal medicine"
+          ],
+          30
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "dental pediatric"
+          ],
+          28
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "health womens"
+          ],
+          28
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "pediatric physicians"
+          ],
+          26
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "ear nose throat"
+          ],
+          23
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "care health womens"
+          ],
+          21
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "dental partners"
+          ],
+          21
+        ],
+        [
+          [
+            "India",
+            "sorted_tokens",
+            "delhi new"
+          ],
+          21
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "center vision"
+          ],
+          20
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "care dermatology"
+          ],
+          20
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "associates health womens"
+          ],
+          20
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "associates care urology"
+          ],
+          19
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "edge straight"
+          ],
+          19
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "com earnosethroat"
+          ],
+          19
+        ]
+      ],
+      "elapsed_seconds": 2.86
+    },
+    {
+      "strategy_name": "Strategy A (All Name Norm)",
+      "key_types": [
+        "raw_norm",
+        "alnum_norm",
+        "sorted_tokens",
+        "exact_norm"
+      ],
+      "blocking_recall": 0.479161,
+      "recovered_true_pairs": 41319,
+      "total_true_pairs": 86232,
+      "total_candidates": 65481,
+      "avg_candidates": 2.62,
+      "median_candidates": 2,
+      "p90": 5,
+      "p95": 9,
+      "p99": 19,
+      "max_candidates": 40,
+      "reduction_ratio": 0.999986,
+      "singleton_empty_rate": 0.8034,
+      "candidates_per_true_match": 1.58,
+      "true_match_density": 0.631007,
+      "cand_by_country": {
+        "US": 3.03,
+        "India": 2.01
+      },
+      "cand_by_cardinality": {
+        "4+": 3.29,
+        "2-3": 2.23,
+        "1": 1.51,
+        "0 (Singleton)": 0.97
+      },
+      "index_stats": {
+        "total_keys": 441045,
+        "total_postings": 522920,
+        "oversized_keys_pruned": 0,
+        "max_bucket_size": 100,
+        "median_bucket_size": 1.0,
+        "mean_bucket_size": 1.19
+      },
+      "top_buckets": [
+        [
+          [
+            "India",
+            "alnum_norm",
+            "private limited"
+          ],
+          100
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "dentistry pediatric"
+          ],
+          40
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "pediatric dentistry"
+          ],
+          38
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "eye"
+          ],
+          37
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "care urgent"
+          ],
+          36
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "physical therapy"
+          ],
+          36
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "care primary"
+          ],
+          35
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "behavioral health"
+          ],
+          35
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "urgent care"
+          ],
+          35
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "physical therapy"
+          ],
+          34
+        ],
+        [
+          [
+            "India",
+            "exact_norm",
+            "shree"
+          ],
+          33
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "behavioral health"
+          ],
+          32
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "primary care"
+          ],
+          31
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "anchor"
+          ],
+          31
+        ],
+        [
+          [
+            "India",
+            "exact_norm",
+            "kolkata"
+          ],
+          31
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "sirius"
+          ],
+          31
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "northwind"
+          ],
+          31
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "ankle foot"
+          ],
+          30
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "meridian"
+          ],
+          30
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "internal medicine"
+          ],
+          30
+        ]
+      ],
+      "elapsed_seconds": 4.25
+    },
+    {
+      "strategy_name": "Strategy B (Postal + Name)",
+      "key_types": [
+        "postal_name"
+      ],
+      "blocking_recall": 0.04561,
+      "recovered_true_pairs": 3933,
+      "total_true_pairs": 86232,
+      "total_candidates": 3938,
+      "avg_candidates": 0.16,
+      "median_candidates": 0,
+      "p90": 0,
+      "p95": 1,
+      "p99": 4,
+      "max_candidates": 8,
+      "reduction_ratio": 0.999999,
+      "singleton_empty_rate": 1.0,
+      "candidates_per_true_match": 1.0,
+      "true_match_density": 0.99873,
+      "cand_by_country": {
+        "US": 0.26,
+        "India": 0.01
+      },
+      "cand_by_cardinality": {
+        "4+": 0.22,
+        "2-3": 0.12,
+        "1": 0.05,
+        "0 (Singleton)": 0.0
+      },
+      "index_stats": {
+        "total_keys": 37417,
+        "total_postings": 46832,
+        "oversized_keys_pruned": 0,
+        "max_bucket_size": 9,
+        "median_bucket_size": 1.0,
+        "mean_bucket_size": 1.25
+      },
+      "top_buckets": [
+        [
+          [
+            "US",
+            "post_name_tok",
+            "16339",
+            "physical"
+          ],
+          9
+        ],
+        [
+          [
+            "US",
+            "post_name_tok",
+            "13900",
+            "benedict"
+          ],
+          8
+        ],
+        [
+          [
+            "US",
+            "post_name_tok",
+            "13900",
+            "superior"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_pfx5",
+            "13900",
+            "karly"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_name_tok",
+            "27123",
+            "better"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_name_tok",
+            "11578",
+            "johnson"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_name_tok",
+            "17722",
+            "correa"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_name_tok",
+            "13914",
+            "seeley"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_name_tok",
+            "10755",
+            "children"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_pfx5",
+            "10755",
+            "child"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_name_tok",
+            "54421",
+            "modern"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_pfx5",
+            "19224",
+            "nelso"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_name_tok",
+            "12954",
+            "phyllys"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_pfx5",
+            "11011",
+            "delta"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_name_tok",
+            "12015",
+            "aleman"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_name_tok",
+            "18213",
+            "bay"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_name_tok",
+            "11526",
+            "tyler"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_name_tok",
+            "11526",
+            "family"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_pfx5",
+            "10601",
+            "simps"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "post_name_tok",
+            "16307",
+            "eye"
+          ],
+          7
+        ]
+      ],
+      "elapsed_seconds": 2.56
+    },
+    {
+      "strategy_name": "Strategy C (Address + Name)",
+      "key_types": [
+        "address_name"
+      ],
+      "blocking_recall": 0.769679,
+      "recovered_true_pairs": 66371,
+      "total_true_pairs": 86232,
+      "total_candidates": 260330,
+      "avg_candidates": 10.41,
+      "median_candidates": 4,
+      "p90": 22,
+      "p95": 37,
+      "p99": 110,
+      "max_candidates": 382,
+      "reduction_ratio": 0.999944,
+      "singleton_empty_rate": 0.4254,
+      "candidates_per_true_match": 3.92,
+      "true_match_density": 0.254949,
+      "cand_by_country": {
+        "US": 5.37,
+        "India": 17.95
+      },
+      "cand_by_cardinality": {
+        "4+": 11.59,
+        "2-3": 9.56,
+        "1": 8.87,
+        "0 (Singleton)": 8.24
+      },
+      "index_stats": {
+        "total_keys": 967471,
+        "total_postings": 1394506,
+        "oversized_keys_pruned": 0,
+        "max_bucket_size": 478,
+        "median_bucket_size": 1.0,
+        "mean_bucket_size": 1.44
+      },
+      "top_buckets": [
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "private"
+          ],
+          478
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "door",
+            "private"
+          ],
+          335
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "delhi"
+          ],
+          320
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "india"
+          ],
+          277
+        ],
+        [
+          [
+            "India",
+            "house_name_tok",
+            "1",
+            "private"
+          ],
+          260
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "new"
+          ],
+          249
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "flat",
+            "private"
+          ],
+          227
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "com"
+          ],
+          219
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "mumbai",
+            "private"
+          ],
+          214
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "door",
+            "india"
+          ],
+          204
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "bangalore",
+            "private"
+          ],
+          176
+        ],
+        [
+          [
+            "India",
+            "house_name_tok",
+            "2",
+            "private"
+          ],
+          162
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "hyderabad",
+            "private"
+          ],
+          162
+        ],
+        [
+          [
+            "India",
+            "house_name_tok",
+            "1",
+            "india"
+          ],
+          147
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "kolkata",
+            "private"
+          ],
+          136
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "center"
+          ],
+          136
+        ],
+        [
+          [
+            "India",
+            "house_name_tok",
+            "4",
+            "private"
+          ],
+          135
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "bangalore",
+            "bangalore"
+          ],
+          134
+        ],
+        [
+          [
+            "India",
+            "house_name_tok",
+            "3",
+            "private"
+          ],
+          133
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "west",
+            "private"
+          ],
+          131
+        ]
+      ],
+      "elapsed_seconds": 9.73
+    },
+    {
+      "strategy_name": "Strategy D (Char N-Gram)",
+      "key_types": [
+        "char_ngram"
+      ],
+      "blocking_recall": 0.571551,
+      "recovered_true_pairs": 49286,
+      "total_true_pairs": 86232,
+      "total_candidates": 707175,
+      "avg_candidates": 28.29,
+      "median_candidates": 8,
+      "p90": 82,
+      "p95": 107,
+      "p99": 166,
+      "max_candidates": 283,
+      "reduction_ratio": 0.999848,
+      "singleton_empty_rate": 0.307,
+      "candidates_per_true_match": 14.35,
+      "true_match_density": 0.069694,
+      "cand_by_country": {
+        "US": 33.54,
+        "India": 20.42
+      },
+      "cand_by_cardinality": {
+        "4+": 28.8,
+        "2-3": 27.9,
+        "1": 28.6,
+        "0 (Singleton)": 26.49
+      },
+      "index_stats": {
+        "total_keys": 65158,
+        "total_postings": 181156,
+        "oversized_keys_pruned": 0,
+        "max_bucket_size": 631,
+        "median_bucket_size": 1.0,
+        "mean_bucket_size": 2.78
+      },
+      "top_buckets": [
+        [
+          [
+            "India",
+            "name_prefix_5",
+            "priva",
+            4
+          ],
+          631
+        ],
+        [
+          [
+            "India",
+            "name_prefix_5",
+            "priva",
+            5
+          ],
+          367
+        ],
+        [
+          [
+            "India",
+            "name_prefix_5",
+            "priva",
+            3
+          ],
+          287
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "pedia",
+            5
+          ],
+          283
+        ],
+        [
+          [
+            "India",
+            "name_prefix_5",
+            "delhi",
+            2
+          ],
+          222
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "pedia",
+            4
+          ],
+          215
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "inter",
+            4
+          ],
+          210
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "pedia",
+            6
+          ],
+          203
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "inter",
+            5
+          ],
+          191
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "brigh",
+            3
+          ],
+          166
+        ],
+        [
+          [
+            "India",
+            "name_prefix_5",
+            "india",
+            3
+          ],
+          166
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "pedia",
+            3
+          ],
+          166
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "pedia",
+            7
+          ],
+          165
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "inter",
+            3
+          ],
+          164
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "brigh",
+            2
+          ],
+          161
+        ],
+        [
+          [
+            "India",
+            "name_prefix_5",
+            "shree",
+            2
+          ],
+          155
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "famil",
+            3
+          ],
+          154
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "heart",
+            3
+          ],
+          150
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "mount",
+            3
+          ],
+          148
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "blue ",
+            2
+          ],
+          148
+        ]
+      ],
+      "elapsed_seconds": 3.06
+    },
+    {
+      "strategy_name": "Strategy E (Transliteration/Phonetic)",
+      "key_types": [
+        "phonetic",
+        "transliteration"
+      ],
+      "blocking_recall": 0.040159,
+      "recovered_true_pairs": 3463,
+      "total_true_pairs": 86232,
+      "total_candidates": 3463,
+      "avg_candidates": 0.14,
+      "median_candidates": 0,
+      "p90": 0,
+      "p95": 1,
+      "p99": 4,
+      "max_candidates": 7,
+      "reduction_ratio": 0.999999,
+      "singleton_empty_rate": 1.0,
+      "candidates_per_true_match": 1.0,
+      "true_match_density": 1.0,
+      "cand_by_country": {
+        "US": 0.23,
+        "India": 0.0
+      },
+      "cand_by_cardinality": {
+        "4+": 0.19,
+        "2-3": 0.11,
+        "1": 0.04,
+        "0 (Singleton)": 0.0
+      },
+      "index_stats": {
+        "total_keys": 21131,
+        "total_postings": 28557,
+        "oversized_keys_pruned": 0,
+        "max_bucket_size": 8,
+        "median_bucket_size": 1.0,
+        "mean_bucket_size": 1.35
+      },
+      "top_buckets": [
+        [
+          [
+            "India",
+            "trans_norm",
+            "al knsltents praivet"
+          ],
+          8
+        ],
+        [
+          [
+            "India",
+            "trans_sorted_tokens",
+            "al knsltents praivet"
+          ],
+          8
+        ],
+        [
+          [
+            "India",
+            "trans_norm",
+            "lkshmee devlprs pra li"
+          ],
+          7
+        ],
+        [
+          [
+            "India",
+            "trans_sorted_tokens",
+            "devlprs li lkshmee pra"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "soundex_post",
+            "16339",
+            "P240"
+          ],
+          7
+        ],
+        [
+          [
+            "India",
+            "trans_norm",
+            "lots prodkts praivet"
+          ],
+          7
+        ],
+        [
+          [
+            "India",
+            "trans_sorted_tokens",
+            "lots praivet prodkts"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "soundex_post",
+            "17722",
+            "C600"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "soundex_post",
+            "11204",
+            "P636"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "soundex_post",
+            "10755",
+            "C436"
+          ],
+          7
+        ],
+        [
+          [
+            "India",
+            "trans_norm",
+            "bmbe enrjee praivet"
+          ],
+          7
+        ],
+        [
+          [
+            "India",
+            "trans_sorted_tokens",
+            "bmbe enrjee praivet"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "soundex_post",
+            "19224",
+            "N425"
+          ],
+          7
+        ],
+        [
+          [
+            "India",
+            "trans_norm",
+            "nrth marketing pra li"
+          ],
+          7
+        ],
+        [
+          [
+            "India",
+            "trans_sorted_tokens",
+            "li marketing nrth pra"
+          ],
+          7
+        ],
+        [
+          [
+            "India",
+            "trans_norm",
+            "l inphra praivet"
+          ],
+          7
+        ],
+        [
+          [
+            "India",
+            "trans_sorted_tokens",
+            "inphra l praivet"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "soundex_post",
+            "18213",
+            "B000"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "soundex_post",
+            "10601",
+            "S512"
+          ],
+          7
+        ],
+        [
+          [
+            "US",
+            "soundex_post",
+            "13900",
+            "K640"
+          ],
+          6
+        ]
+      ],
+      "elapsed_seconds": 3.18
+    },
+    {
+      "strategy_name": "Strategy F (Address-First)",
+      "key_types": [
+        "address_first"
+      ],
+      "blocking_recall": 0.152171,
+      "recovered_true_pairs": 13122,
+      "total_true_pairs": 86232,
+      "total_candidates": 14369,
+      "avg_candidates": 0.57,
+      "median_candidates": 0,
+      "p90": 2,
+      "p95": 3,
+      "p99": 5,
+      "max_candidates": 12,
+      "reduction_ratio": 0.999997,
+      "singleton_empty_rate": 0.9785,
+      "candidates_per_true_match": 1.1,
+      "true_match_density": 0.913216,
+      "cand_by_country": {
+        "US": 0.78,
+        "India": 0.26
+      },
+      "cand_by_cardinality": {
+        "4+": 0.79,
+        "2-3": 0.45,
+        "1": 0.2,
+        "0 (Singleton)": 0.05
+      },
+      "index_stats": {
+        "total_keys": 172281,
+        "total_postings": 192468,
+        "oversized_keys_pruned": 0,
+        "max_bucket_size": 13,
+        "median_bucket_size": 1.0,
+        "mean_bucket_size": 1.12
+      },
+      "top_buckets": [
+        [
+          [
+            "India",
+            "post_house_num",
+            "00101",
+            "00101"
+          ],
+          13
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "10601",
+            "10601"
+          ],
+          12
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "11201",
+            "11201"
+          ],
+          11
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "13715",
+            "13715"
+          ],
+          11
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "00201",
+            "00201"
+          ],
+          10
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "13111",
+            "13111"
+          ],
+          10
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "10665",
+            "10665"
+          ],
+          10
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "14426",
+            "14426"
+          ],
+          10
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "11720",
+            "11720"
+          ],
+          10
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "10201",
+            "10201"
+          ],
+          10
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "11204",
+            "11204"
+          ],
+          10
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "10411",
+            "10411"
+          ],
+          10
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "13900",
+            "13900"
+          ],
+          9
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "13781",
+            "13781"
+          ],
+          9
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "10019",
+            "10019"
+          ],
+          9
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "11724",
+            "11724"
+          ],
+          9
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "10101",
+            "10101"
+          ],
+          9
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "10815",
+            "10815"
+          ],
+          9
+        ],
+        [
+          [
+            "US",
+            "post_house_num",
+            "12202",
+            "12202"
+          ],
+          9
+        ],
+        [
+          [
+            "India",
+            "post_house_num",
+            "00202",
+            "00202"
+          ],
+          9
+        ]
+      ],
+      "elapsed_seconds": 8.28
+    },
+    {
+      "strategy_name": "Union A (Name + Postal)",
+      "key_types": [
+        "sorted_tokens",
+        "exact_norm",
+        "postal_name"
+      ],
+      "blocking_recall": 0.499293,
+      "recovered_true_pairs": 43055,
+      "total_true_pairs": 86232,
+      "total_candidates": 67217,
+      "avg_candidates": 2.69,
+      "median_candidates": 2,
+      "p90": 5,
+      "p95": 9,
+      "p99": 19,
+      "max_candidates": 40,
+      "reduction_ratio": 0.999986,
+      "singleton_empty_rate": 0.8034,
+      "candidates_per_true_match": 1.56,
+      "true_match_density": 0.640537,
+      "cand_by_country": {
+        "US": 3.14,
+        "India": 2.01
+      },
+      "cand_by_cardinality": {
+        "4+": 3.38,
+        "2-3": 2.28,
+        "1": 1.54,
+        "0 (Singleton)": 0.97
+      },
+      "index_stats": {
+        "total_keys": 327452,
+        "total_postings": 405257,
+        "oversized_keys_pruned": 0,
+        "max_bucket_size": 40,
+        "median_bucket_size": 1.0,
+        "mean_bucket_size": 1.24
+      },
+      "top_buckets": [
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "dentistry pediatric"
+          ],
+          40
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "pediatric dentistry"
+          ],
+          38
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "eye"
+          ],
+          37
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "care urgent"
+          ],
+          36
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "physical therapy"
+          ],
+          36
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "care primary"
+          ],
+          35
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "behavioral health"
+          ],
+          35
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "urgent care"
+          ],
+          35
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "physical therapy"
+          ],
+          34
+        ],
+        [
+          [
+            "India",
+            "exact_norm",
+            "shree"
+          ],
+          33
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "behavioral health"
+          ],
+          32
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "primary care"
+          ],
+          31
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "anchor"
+          ],
+          31
+        ],
+        [
+          [
+            "India",
+            "exact_norm",
+            "kolkata"
+          ],
+          31
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "sirius"
+          ],
+          31
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "northwind"
+          ],
+          31
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "ankle foot"
+          ],
+          30
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "meridian"
+          ],
+          30
+        ],
+        [
+          [
+            "US",
+            "sorted_tokens",
+            "internal medicine"
+          ],
+          30
+        ],
+        [
+          [
+            "US",
+            "exact_norm",
+            "dermatology"
+          ],
+          29
+        ]
+      ],
+      "elapsed_seconds": 4.38
+    },
+    {
+      "strategy_name": "Union B (Union A + Address)",
+      "key_types": [
+        "address_name",
+        "sorted_tokens",
+        "exact_norm",
+        "postal_name"
+      ],
+      "blocking_recall": 0.809305,
+      "recovered_true_pairs": 69788,
+      "total_true_pairs": 86232,
+      "total_candidates": 287380,
+      "avg_candidates": 11.5,
+      "median_candidates": 5,
+      "p90": 24,
+      "p95": 38,
+      "p99": 112,
+      "max_candidates": 382,
+      "reduction_ratio": 0.999938,
+      "singleton_empty_rate": 0.3687,
+      "candidates_per_true_match": 4.12,
+      "true_match_density": 0.242842,
+      "cand_by_country": {
+        "US": 6.64,
+        "India": 18.76
+      },
+      "cand_by_cardinality": {
+        "4+": 12.71,
+        "2-3": 10.62,
+        "1": 9.94,
+        "0 (Singleton)": 9.18
+      },
+      "index_stats": {
+        "total_keys": 1294923,
+        "total_postings": 1799763,
+        "oversized_keys_pruned": 0,
+        "max_bucket_size": 478,
+        "median_bucket_size": 1.0,
+        "mean_bucket_size": 1.39
+      },
+      "top_buckets": [
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "private"
+          ],
+          478
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "door",
+            "private"
+          ],
+          335
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "delhi"
+          ],
+          320
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "india"
+          ],
+          277
+        ],
+        [
+          [
+            "India",
+            "house_name_tok",
+            "1",
+            "private"
+          ],
+          260
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "new"
+          ],
+          249
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "flat",
+            "private"
+          ],
+          227
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "com"
+          ],
+          219
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "mumbai",
+            "private"
+          ],
+          214
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "door",
+            "india"
+          ],
+          204
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "bangalore",
+            "private"
+          ],
+          176
+        ],
+        [
+          [
+            "India",
+            "house_name_tok",
+            "2",
+            "private"
+          ],
+          162
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "hyderabad",
+            "private"
+          ],
+          162
+        ],
+        [
+          [
+            "India",
+            "house_name_tok",
+            "1",
+            "india"
+          ],
+          147
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "kolkata",
+            "private"
+          ],
+          136
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "center"
+          ],
+          136
+        ],
+        [
+          [
+            "India",
+            "house_name_tok",
+            "4",
+            "private"
+          ],
+          135
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "bangalore",
+            "bangalore"
+          ],
+          134
+        ],
+        [
+          [
+            "India",
+            "house_name_tok",
+            "3",
+            "private"
+          ],
+          133
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "west",
+            "private"
+          ],
+          131
+        ]
+      ],
+      "elapsed_seconds": 11.01
+    },
+    {
+      "strategy_name": "Union C (Union B + N-Gram)",
+      "key_types": [
+        "sorted_tokens",
+        "exact_norm",
+        "postal_name",
+        "address_name",
+        "char_ngram"
+      ],
+      "blocking_recall": 0.832603,
+      "recovered_true_pairs": 71797,
+      "total_true_pairs": 86232,
+      "total_candidates": 913216,
+      "avg_candidates": 36.53,
+      "median_candidates": 17,
+      "p90": 93,
+      "p95": 120,
+      "p99": 211,
+      "max_candidates": 382,
+      "reduction_ratio": 0.999804,
+      "singleton_empty_rate": 0.1671,
+      "candidates_per_true_match": 12.72,
+      "true_match_density": 0.07862,
+      "cand_by_country": {
+        "US": 36.86,
+        "India": 36.04
+      },
+      "cand_by_cardinality": {
+        "4+": 37.51,
+        "2-3": 35.78,
+        "1": 36.22,
+        "0 (Singleton)": 34.08
+      },
+      "index_stats": {
+        "total_keys": 1360081,
+        "total_postings": 1980919,
+        "oversized_keys_pruned": 0,
+        "max_bucket_size": 631,
+        "median_bucket_size": 1.0,
+        "mean_bucket_size": 1.46
+      },
+      "top_buckets": [
+        [
+          [
+            "India",
+            "name_prefix_5",
+            "priva",
+            4
+          ],
+          631
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "private"
+          ],
+          478
+        ],
+        [
+          [
+            "India",
+            "name_prefix_5",
+            "priva",
+            5
+          ],
+          367
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "door",
+            "private"
+          ],
+          335
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "delhi"
+          ],
+          320
+        ],
+        [
+          [
+            "India",
+            "name_prefix_5",
+            "priva",
+            3
+          ],
+          287
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "pedia",
+            5
+          ],
+          283
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "india"
+          ],
+          277
+        ],
+        [
+          [
+            "India",
+            "house_name_tok",
+            "1",
+            "private"
+          ],
+          260
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "new"
+          ],
+          249
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "flat",
+            "private"
+          ],
+          227
+        ],
+        [
+          [
+            "India",
+            "name_prefix_5",
+            "delhi",
+            2
+          ],
+          222
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "com"
+          ],
+          219
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "pedia",
+            4
+          ],
+          215
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "mumbai",
+            "private"
+          ],
+          214
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "inter",
+            4
+          ],
+          210
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "door",
+            "india"
+          ],
+          204
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "pedia",
+            6
+          ],
+          203
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "inter",
+            5
+          ],
+          191
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "bangalore",
+            "private"
+          ],
+          176
+        ]
+      ],
+      "elapsed_seconds": 11.21
+    },
+    {
+      "strategy_name": "Union D (Union C + Transliteration + Addr-First)",
+      "key_types": [
+        "sorted_tokens",
+        "exact_norm",
+        "postal_name",
+        "address_name",
+        "address_first",
+        "char_ngram",
+        "transliteration"
+      ],
+      "blocking_recall": 0.855854,
+      "recovered_true_pairs": 73802,
+      "total_true_pairs": 86232,
+      "total_candidates": 916442,
+      "avg_candidates": 36.66,
+      "median_candidates": 17,
+      "p90": 93,
+      "p95": 120,
+      "p99": 211,
+      "max_candidates": 382,
+      "reduction_ratio": 0.999803,
+      "singleton_empty_rate": 0.1628,
+      "candidates_per_true_match": 12.42,
+      "true_match_density": 0.080531,
+      "cand_by_country": {
+        "US": 37.01,
+        "India": 36.13
+      },
+      "cand_by_cardinality": {
+        "4+": 37.67,
+        "2-3": 35.89,
+        "1": 36.29,
+        "0 (Singleton)": 34.13
+      },
+      "index_stats": {
+        "total_keys": 1543381,
+        "total_postings": 2189049,
+        "oversized_keys_pruned": 0,
+        "max_bucket_size": 631,
+        "median_bucket_size": 1.0,
+        "mean_bucket_size": 1.42
+      },
+      "top_buckets": [
+        [
+          [
+            "India",
+            "name_prefix_5",
+            "priva",
+            4
+          ],
+          631
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "private"
+          ],
+          478
+        ],
+        [
+          [
+            "India",
+            "name_prefix_5",
+            "priva",
+            5
+          ],
+          367
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "door",
+            "private"
+          ],
+          335
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "delhi"
+          ],
+          320
+        ],
+        [
+          [
+            "India",
+            "name_prefix_5",
+            "priva",
+            3
+          ],
+          287
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "pedia",
+            5
+          ],
+          283
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "india"
+          ],
+          277
+        ],
+        [
+          [
+            "India",
+            "house_name_tok",
+            "1",
+            "private"
+          ],
+          260
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "new"
+          ],
+          249
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "flat",
+            "private"
+          ],
+          227
+        ],
+        [
+          [
+            "India",
+            "name_prefix_5",
+            "delhi",
+            2
+          ],
+          222
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "delhi",
+            "com"
+          ],
+          219
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "pedia",
+            4
+          ],
+          215
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "mumbai",
+            "private"
+          ],
+          214
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "inter",
+            4
+          ],
+          210
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "door",
+            "india"
+          ],
+          204
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "pedia",
+            6
+          ],
+          203
+        ],
+        [
+          [
+            "US",
+            "name_prefix_5",
+            "inter",
+            5
+          ],
+          191
+        ],
+        [
+          [
+            "India",
+            "addr_name_tok",
+            "bangalore",
+            "private"
+          ],
+          176
+        ]
+      ],
+      "elapsed_seconds": 16.42
+    }
+  ],
+  "incremental_recovery": [
+    {
+      "strategy": "Strategy A (All Name Norm)",
+      "new_true_pairs": 41319,
+      "percentage_of_total": 47.92,
+      "explanation": "Clean name variations, legal suffixes, sorted tokens"
+    },
+    {
+      "strategy": "Strategy B (Postal + Name)",
+      "new_true_pairs": 1736,
+      "percentage_of_total": 2.01,
+      "explanation": "Severe name truncation/abbreviation anchored by postal code"
+    },
+    {
+      "strategy": "Strategy C (Address + Name)",
+      "new_true_pairs": 26733,
+      "percentage_of_total": 31.0,
+      "explanation": "Address number and street tokens with partial name"
+    },
+    {
+      "strategy": "Strategy D (Char N-Gram)",
+      "new_true_pairs": 2015,
+      "percentage_of_total": 2.34,
+      "explanation": "Minor spelling typos and prefix matches"
+    },
+    {
+      "strategy": "Strategy E (Transliteration/Phonetic)",
+      "new_true_pairs": 17,
+      "percentage_of_total": 0.02,
+      "explanation": "Devanagari cross-script Hindi in India partition"
+    },
+    {
+      "strategy": "Strategy F (Address-First)",
+      "new_true_pairs": 2000,
+      "percentage_of_total": 2.32,
+      "explanation": "Radical name changes / acronyms at identical addresses"
+    }
+  ]
+}

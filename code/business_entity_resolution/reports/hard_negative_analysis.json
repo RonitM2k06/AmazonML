@@ -1,0 +1,181 @@
+{
+  "same_name_diff_address_count": 100,
+  "same_address_diff_business_count": 10,
+  "short_name_collisions_count": 67,
+  "samples": {
+    "same_name_diff_address": [
+      {
+        "s1_id": "S1-766693014",
+        "s1_name": "Helios Inc.",
+        "s1_addr": "515 Franru Lane, Unit APT 208, Saint Louis, MO",
+        "matched_id": "S2-74226485",
+        "m_name": "Helios Inc",
+        "m_addr": "#695 PARK LN, PO BOX 3170, MONROE, WA",
+        "name_sim": 0.909,
+        "addr_sim": 0.217,
+        "country": "US"
+      },
+      {
+        "s1_id": "S1-766202209",
+        "s1_name": "Urgent Care Physicians LLC",
+        "s1_addr": "21 Mount Pleasant Street, Unit A, Marlborough, MA",
+        "matched_id": "S2-756065363",
+        "m_name": "Urgent C\u00e1re Physicians, LLC",
+        "m_addr": "Block 800 Canby St, LARAMIE, WY",
+        "name_sim": 0.926,
+        "addr_sim": 0.245,
+        "country": "US"
+      },
+      {
+        "s1_id": "S1-141554589",
+        "s1_name": "Womens Health Care LLC",
+        "s1_addr": "1465 Navajo Road, Bldg BUILDING, Coalville, UT",
+        "matched_id": "S2-458860562",
+        "m_name": "Womens Health Care LLC",
+        "m_addr": "KS, TOPEKA, 1201 FILLMORE SAINT",
+        "name_sim": 1.0,
+        "addr_sim": 0.174,
+        "country": "US"
+      },
+      {
+        "s1_id": "S1-233667593",
+        "s1_name": "Womens Health Care LLC",
+        "s1_addr": "113 Birch, Unit 0, Poplar Grove, IL",
+        "matched_id": "S2-458860562",
+        "m_name": "Womens Health Care LLC",
+        "m_addr": "KS, TOPEKA, 1201 FILLMORE SAINT",
+        "name_sim": 1.0,
+        "addr_sim": 0.114,
+        "country": "US"
+      },
+      {
+        "s1_id": "S1-694629224",
+        "s1_name": "Main Street Tattoo",
+        "s1_addr": "5725 Burke Towne Court, Fairfax County, VA",
+        "matched_id": "S2-65887700",
+        "m_name": "Main Street Tattoo",
+        "m_addr": "FORT WORTH, TX, 9604-9606 HERON DRIVE",
+        "name_sim": 1.0,
+        "addr_sim": 0.095,
+        "country": "US"
+      }
+    ],
+    "same_address_diff_business": [
+      {
+        "s1_id": "S1-747065084",
+        "s1_name": "Infra Surender Birds Private Limited",
+        "s1_addr": "E-8/C-1 Sector-C1, Lda Coly. Kp. Road, Lucknow, Uttar Pradesh",
+        "matched_id": "S3-119662318",
+        "m_name": "Vasani",
+        "m_addr": "E-8/C-1 Sector-C1, Lda Coly. Kp. Road, Lucknow, Uttar Pradesh",
+        "name_sim": 0.111,
+        "addr_sim": 1.0,
+        "country": "India"
+      },
+      {
+        "s1_id": "S1-225036015",
+        "s1_name": "Person, Christensen and Harnett Flagstar Inc",
+        "s1_addr": "160 Emerson Place, Camden, AR",
+        "matched_id": "S3-109077694",
+        "m_name": "Pyrairi",
+        "m_addr": "160 Emerson Place, Camden, AR",
+        "name_sim": 0.091,
+        "addr_sim": 1.0,
+        "country": "US"
+      },
+      {
+        "s1_id": "S1-48571327",
+        "s1_name": "Frontier Alliance Inc",
+        "s1_addr": "3400 June Drive, Mckinney, TX",
+        "matched_id": "S3-999173544",
+        "m_name": "Mirawex",
+        "m_addr": "3400 June Drive, Mckinney, TX",
+        "name_sim": 0.19,
+        "addr_sim": 1.0,
+        "country": "US"
+      },
+      {
+        "s1_id": "S1-675305836",
+        "s1_name": "Jay Properties Private Limited",
+        "s1_addr": "505 Shalimar Morya Parkandheri Link Road Andheri (W), Mumbai, Maharashtra",
+        "matched_id": "S3-876165142",
+        "m_name": "Bengal Mediaprivate L.L.P.",
+        "m_addr": "505 Shalimar Morya Parkandheri Link Road Andheri (W), Mumbai, MH",
+        "name_sim": 0.333,
+        "addr_sim": 0.863,
+        "country": "India"
+      },
+      {
+        "s1_id": "S1-162178225",
+        "s1_name": "Lizabeth's Heartland Foods",
+        "s1_addr": "404 Shep Street, Austin, TX",
+        "matched_id": "S3-678717222",
+        "m_name": "Findley & Andmres",
+        "m_addr": "404 Shep Street, Austin, Texas",
+        "name_sim": 0.231,
+        "addr_sim": 0.867,
+        "country": "US"
+      }
+    ],
+    "short_name_collisions": [
+      {
+        "s1_id": "S1-7381669",
+        "s1_name": "Aurora",
+        "s1_addr": "1910 Bridges Street, Morehead City, NC",
+        "matched_id": "S2-56831669",
+        "m_name": "Aurora",
+        "m_addr": "92 CURTIS AVE, QUINCY, MA",
+        "name_sim": 1.0,
+        "addr_sim": 0.211,
+        "country": "US"
+      },
+      {
+        "s1_id": "S1-233585334",
+        "s1_name": "Aurora",
+        "s1_addr": "600 Jacks Mountain Road, Franklin County, VA",
+        "matched_id": "S2-56831669",
+        "m_name": "Aurora",
+        "m_addr": "92 CURTIS AVE, QUINCY, MA",
+        "name_sim": 1.0,
+        "addr_sim": 0.182,
+        "country": "US"
+      },
+      {
+        "s1_id": "S1-298935178",
+        "s1_name": "Timber",
+        "s1_addr": "4945 Mcminnville Highway, TN, Doyle",
+        "matched_id": "S2-143604259",
+        "m_name": "Timber",
+        "m_addr": "##7840 OAKLEAF AVE, ELMWOOD PARK, IL",
+        "name_sim": 1.0,
+        "addr_sim": 0.056,
+        "country": "US"
+      },
+      {
+        "s1_id": "S1-378354807",
+        "s1_name": "Falcon",
+        "s1_addr": "122 Lovell Road, TN, Knoxville, Unit 401",
+        "matched_id": "S2-565814786",
+        "m_name": "Falcon",
+        "m_addr": "110 PIERSON STREET, EMORY, TX",
+        "name_sim": 1.0,
+        "addr_sim": 0.175,
+        "country": "US"
+      },
+      {
+        "s1_id": "S1-425966720",
+        "s1_name": "Anvil",
+        "s1_addr": "315 Galaxy Drive, Butte-silver Bow, MT",
+        "matched_id": "S2-894378583",
+        "m_name": "Anvil",
+        "m_addr": "239 RIVER RD, AMHERST JUNCTION, WI",
+        "name_sim": 1.0,
+        "addr_sim": 0.158,
+        "country": "US"
+      }
+    ],
+    "common_chains_or_franchises": [],
+    "same_legal_suffix_diff_core": []
+  },
+  "elapsed_seconds": 2.94
+}

@@ -1,0 +1,75 @@
+{
+  "partitions": {
+    "France": {
+      "s1_count": 259452,
+      "s2_targets": 703378,
+      "s3_targets": 731615,
+      "singletons": 36593,
+      "matched_entities": 222859,
+      "total_matches": 491360,
+      "mean_matches_per_entity": 1.894,
+      "match_cardinality": {
+        "0": 36593,
+        "1": 61663,
+        "2": 80120,
+        "3": 54847,
+        "4": 26229
+      },
+      "elapsed_sec": 76.88
+    },
+    "US": {
+      "s1_count": 663106,
+      "s2_targets": 1871330,
+      "s3_targets": 1945701,
+      "singletons": 186545,
+      "matched_entities": 476561,
+      "total_matches": 849700,
+      "mean_matches_per_entity": 1.281,
+      "match_cardinality": {
+        "0": 186545,
+        "1": 212841,
+        "2": 171872,
+        "3": 74277,
+        "4": 17571
+      },
+      "elapsed_sec": 167.23
+    },
+    "India": {
+      "s1_count": 809986,
+      "s2_targets": 2312565,
+      "s3_targets": 2405000,
+      "singletons": 342375,
+      "matched_entities": 467611,
+      "total_matches": 765288,
+      "mean_matches_per_entity": 0.945,
+      "match_cardinality": {
+        "0": 342375,
+        "1": 249265,
+        "2": 151896,
+        "3": 53569,
+        "4": 12881
+      },
+      "elapsed_sec": 296.85
+    }
+  },
+  "system": "EXP_N039_PRECISION_V2",
+  "summary": {
+    "total_test_s1_entities": 1732544,
+    "singletons": 565513,
+    "singleton_rate": 0.3264,
+    "matched_entities": 1167031,
+    "matched_rate": 0.6736,
+    "total_matches_predicted": 2106348,
+    "mean_matches_per_s1": 1.216,
+    "match_cardinality": {
+      "0": 565513,
+      "1": 523769,
+      "2": 403888,
+      "3": 182693,
+      "4": 56681
+    },
+    "matching_results_v2_sha256": "2786fbbcbb861e3d70449d9cd6dc46cee37ba2b1410046be63774fcc81d986e5",
+    "matching_results_v2_bytes": 50045235,
+    "total_elapsed_sec": 544.84
+  }
+}

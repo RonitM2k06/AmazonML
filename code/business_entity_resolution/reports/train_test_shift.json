@@ -1,0 +1,37 @@
+{
+  "train_s1": {
+    "sampled_rows": 100000,
+    "countries": {
+      "US": 59.89,
+      "India": 40.11
+    },
+    "mean_name_len": 24.04,
+    "median_name_len": 24,
+    "mean_addr_len": 52.08,
+    "median_addr_len": 41,
+    "missing_addr_pct": 0.0,
+    "accented_name_pct": 0.0,
+    "devanagari_name_pct": 0.0
+  },
+  "test_s1": {
+    "sampled_rows": 100000,
+    "countries": {
+      "US": 38.42,
+      "France": 14.98,
+      "India": 46.6
+    },
+    "mean_name_len": 23.83,
+    "median_name_len": 24,
+    "mean_addr_len": 57.1,
+    "median_addr_len": 50,
+    "missing_addr_pct": 0.0,
+    "accented_name_pct": 2.32,
+    "devanagari_name_pct": 0.0
+  },
+  "key_differences": {
+    "france_in_test": 14.98,
+    "accented_chars_jump": 2.32,
+    "devanagari_drop": 0.0
+  },
+  "elapsed_seconds": 0.46
+}

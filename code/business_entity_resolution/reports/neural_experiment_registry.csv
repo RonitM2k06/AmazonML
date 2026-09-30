@@ -1,0 +1,4 @@
+exp_id,description,macro_f_05,macro_precision,macro_recall,singleton_accuracy,exact_set_accuracy,total_entities,total_true_matches,total_false_positives,total_false_negatives,threshold,notes
+EXP_N001,Dual encoder ANN cosine threshold (no Union E),0.554361,0.583388,0.717239,0.459828,0.18004,25000,86232,526009,23028,0.8,"top_k=200, model=paraphrase-multilingual-MiniLM-L12-v2"
+EXP_N002,Dual encoder ANN union with Union E blocker,0.093655,0.081318,0.854378,0.007174,0.0056,25000,86232,2983176,8140,0.7,"top_k=200, union_gate=0.35"
+EXP_N008,"Hybrid 57-feat final (vectorized eval, 1620-sweep confirmed best)",0.986135,0.990143,0.97853,0.972991,0.909794,24965,83166,699,1788,"{""base_th"": 0.956, ""dense_th"": 0.963, ""margin"": 0.025, ""anchor"": 0.978, ""bridge"": 0.938, ""density_cutoff"": 75}","blend=LGB0.45+XGB0.55,cosine=paraphrase-multilingual-MiniLM-L12-v2,val_blocker_recall=96.44pct,57_features"

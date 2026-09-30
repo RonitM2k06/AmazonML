@@ -1,0 +1,195 @@
+{
+  "baseline_n039": {
+    "macro_f_05": 0.99332,
+    "macro_precision": 0.993207,
+    "macro_recall": 0.994593,
+    "fp": 191,
+    "fn": 204,
+    "exact_set_accuracy": 0.98692,
+    "singleton_accuracy": 0.992826,
+    "total_predicted_matches": 86219,
+    "us": {
+      "macro_f_05": 0.995622,
+      "macro_precision": 0.9955,
+      "macro_recall": 0.996718
+    },
+    "india": {
+      "macro_f_05": 0.989877,
+      "macro_precision": 0.989779,
+      "macro_recall": 0.991415
+    },
+    "cardinality_ge_3": {
+      "macro_f_05": 0.998023,
+      "macro_precision": 0.997864,
+      "macro_recall": 0.999071
+    }
+  },
+  "experiments": [
+    {
+      "name": "Filter Missing Addr (p<0.9, non-exact name)",
+      "macro_f_05": 0.992456,
+      "macro_precision": 0.993347,
+      "macro_recall": 0.990797,
+      "fp": 177,
+      "fn": 588,
+      "tp_removed": 384,
+      "fp_removed": 14,
+      "net_tp_fp": -398
+    },
+    {
+      "name": "Filter Missing Addr (p<0.93, non-exact name)",
+      "macro_f_05": 0.992402,
+      "macro_precision": 0.993375,
+      "macro_recall": 0.990493,
+      "fp": 174,
+      "fn": 620,
+      "tp_removed": 416,
+      "fp_removed": 17,
+      "net_tp_fp": -433
+    },
+    {
+      "name": "Filter Missing Addr (p<0.95, non-exact name)",
+      "macro_f_05": 0.992262,
+      "macro_precision": 0.99336,
+      "macro_recall": 0.99001,
+      "fp": 171,
+      "fn": 664,
+      "tp_removed": 460,
+      "fp_removed": 20,
+      "net_tp_fp": -480
+    },
+    {
+      "name": "Filter Missing Addr (p<0.97, non-exact name)",
+      "macro_f_05": 0.992079,
+      "macro_precision": 0.99336,
+      "macro_recall": 0.989306,
+      "fp": 167,
+      "fn": 727,
+      "tp_removed": 523,
+      "fp_removed": 24,
+      "net_tp_fp": -547
+    },
+    {
+      "name": "Filter Missing Addr (p<0.98, non-exact name)",
+      "macro_f_05": 0.99181,
+      "macro_precision": 0.993355,
+      "macro_recall": 0.988303,
+      "fp": 163,
+      "fn": 821,
+      "tp_removed": 617,
+      "fp_removed": 28,
+      "net_tp_fp": -645
+    },
+    {
+      "name": "Filter Missing Addr (p<0.99, non-exact name)",
+      "macro_f_05": 0.991,
+      "macro_precision": 0.993137,
+      "macro_recall": 0.985851,
+      "fp": 154,
+      "fn": 1042,
+      "tp_removed": 838,
+      "fp_removed": 37,
+      "net_tp_fp": -875
+    },
+    {
+      "name": "Filter House Number Conflict (p<0.95)",
+      "macro_f_05": 0.992768,
+      "macro_precision": 0.993268,
+      "macro_recall": 0.992418,
+      "fp": 185,
+      "fn": 409,
+      "tp_removed": 205,
+      "fp_removed": 6
+    },
+    {
+      "name": "Filter House Number Conflict (p<0.97)",
+      "macro_f_05": 0.992919,
+      "macro_precision": 0.993511,
+      "macro_recall": 0.992297,
+      "fp": 170,
+      "fn": 431,
+      "tp_removed": 227,
+      "fp_removed": 21
+    },
+    {
+      "name": "Filter House Number Conflict (p<0.98)",
+      "macro_f_05": 0.992917,
+      "macro_precision": 0.993576,
+      "macro_recall": 0.992124,
+      "fp": 166,
+      "fn": 450,
+      "tp_removed": 246,
+      "fp_removed": 25
+    },
+    {
+      "name": "Filter House Number Conflict (p<0.99)",
+      "macro_f_05": 0.992754,
+      "macro_precision": 0.993606,
+      "macro_recall": 0.991469,
+      "fp": 162,
+      "fn": 511,
+      "tp_removed": 307,
+      "fp_removed": 29
+    },
+    {
+      "name": "Filter Low Street Sim (sim<30, p<0.97)",
+      "macro_f_05": 0.99282,
+      "macro_precision": 0.993254,
+      "macro_recall": 0.992662,
+      "fp": 187,
+      "fn": 381,
+      "tp_removed": 177,
+      "fp_removed": 4
+    },
+    {
+      "name": "Filter Low Street Sim (sim<40, p<0.97)",
+      "macro_f_05": 0.991881,
+      "macro_precision": 0.993276,
+      "macro_recall": 0.989189,
+      "fp": 184,
+      "fn": 710,
+      "tp_removed": 506,
+      "fp_removed": 7
+    },
+    {
+      "name": "Filter Low Street Sim (sim<50, p<0.97)",
+      "macro_f_05": 0.990895,
+      "macro_precision": 0.993363,
+      "macro_recall": 0.985437,
+      "fp": 172,
+      "fn": 1067,
+      "tp_removed": 863,
+      "fp_removed": 19
+    },
+    {
+      "name": "Filter Short Name (len<=4, missing addr, p<0.98)",
+      "macro_f_05": 0.993214,
+      "macro_precision": 0.993217,
+      "macro_recall": 0.994149,
+      "fp": 190,
+      "fn": 253,
+      "tp_removed": 49,
+      "fp_removed": 1
+    },
+    {
+      "name": "Filter Short Name (len<=6, missing addr, p<0.98)",
+      "macro_f_05": 0.993113,
+      "macro_precision": 0.993267,
+      "macro_recall": 0.99366,
+      "fp": 188,
+      "fn": 301,
+      "tp_removed": 97,
+      "fp_removed": 3
+    },
+    {
+      "name": "Recovery: Clean Name Exact + Addr Sim >=85 + p>=0.80",
+      "macro_f_05": 0.990562,
+      "macro_precision": 0.990156,
+      "macro_recall": 0.993473,
+      "fp": 421,
+      "fn": 204,
+      "tp_added": 0,
+      "fp_added": 230
+    }
+  ]
+}

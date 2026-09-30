@@ -1,0 +1,38 @@
+{
+  "experiment": "EXP_N008",
+  "eval_population": 25000,
+  "metric_A_decision_layer": {
+    "macro_f_05": 0.986154,
+    "macro_precision": 0.990157,
+    "macro_recall": 0.97856,
+    "singleton_accuracy": 0.973615,
+    "exact_set_accuracy": 0.90992,
+    "false_positives": 699,
+    "false_negatives": 1788
+  },
+  "metric_B_complete_system": {
+    "macro_f_05": 0.97244,
+    "macro_precision": 0.985357,
+    "macro_recall": 0.945282,
+    "singleton_accuracy": 0.97274,
+    "exact_set_accuracy": 0.82672,
+    "false_positives": 699,
+    "false_negatives": 4854
+  },
+  "error_breakdown": {
+    "fp_decision": 699,
+    "fn_model": 1788,
+    "fn_blocker": 3066
+  },
+  "params": {
+    "base_th": 0.956,
+    "dense_th": 0.963,
+    "margin": 0.025,
+    "anchor": 0.978,
+    "bridge": 0.938,
+    "density_cutoff": 75,
+    "blend_w_lgb": 0.45,
+    "blend_w_xgb": 0.55
+  },
+  "timestamp": "2026-09-26T11:09:44"
+}

@@ -1,0 +1,30 @@
+{
+  "experiment": "EXP_N039",
+  "champion_model": "error_cluster_set_completion_EXP_N039",
+  "metric_b_complete_system_f05": 0.99332,
+  "metric_a_decision_layer_f05": 0.985478,
+  "metric_macro_precision": 0.993207,
+  "metric_macro_recall": 0.994593,
+  "eval_population_s1": 25000,
+  "total_false_positives": 191,
+  "total_false_negatives_model": 162,
+  "total_false_negatives_blocker": 42,
+  "total_false_negatives": 204,
+  "singleton_accuracy": 0.9928263988522238,
+  "multi_match_recall": 0.9976342888950738,
+  "ablations": {
+    "N039-A": 0.993311,
+    "N039-B": 0.993311,
+    "N039-C": 0.993311,
+    "N039-D": 0.993311,
+    "N039-E": 0.993311,
+    "N039-F": 0.993311,
+    "N039-G": 0.99332,
+    "N039-H": 0.99332,
+    "N039-I": 0.99332,
+    "N039-J": 0.99332,
+    "N039-K": 0.99332,
+    "N039-L": 0.99332
+  },
+  "timestamp": "2026-09-27 14:18:26"
+}

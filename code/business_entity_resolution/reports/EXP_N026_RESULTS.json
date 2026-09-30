@@ -1,0 +1,26 @@
+{
+  "experiment": "EXP_N026",
+  "status": "COMPLETED_FAILED_TO_BEAT_CHAMPION",
+  "champion_preserved": "EXP_N024",
+  "authoritative_baseline_metric_b": 0.986756,
+  "n026_evaluated_metric_b": 0.986619,
+  "delta_metric_b": -0.000137,
+  "eval_population_s1": 25000,
+  "total_ground_truth_matches": 86232,
+  "n026_precision": 0.992015,
+  "n026_recall": 0.973302,
+  "n026_fp": 206,
+  "n026_fn_in_pool": 1881,
+  "n026_fn_blocker": 404,
+  "n026_total_fn": 2285,
+  "ablations": {
+    "N026-A_baseline_frontier": 0.986756,
+    "N026-B_learned_metric_projection": 0.986416,
+    "N026-C_entity_memory_prototype": 0.986447,
+    "N026-D_set_coherence_gain": 0.984534,
+    "N026-E_competing_separation_margin": 0.986421,
+    "N026-F_multimatch_memory_update": 0.986614,
+    "N026-G_full_n026_system": 0.986619
+  },
+  "timestamp": "2026-09-27T11:13:30"
+}

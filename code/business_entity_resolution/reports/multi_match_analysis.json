@@ -1,0 +1,48 @@
+{
+  "1_match": {
+    "entity_count": 2685,
+    "mean_avg_name_sim": 0.6163,
+    "mean_min_name_sim": 0.6163,
+    "mean_max_name_sim": 0.6163,
+    "mean_avg_addr_sim": 0.4565,
+    "mean_min_addr_sim": 0.4565,
+    "mean_max_addr_sim": 0.4565
+  },
+  "2_matches": {
+    "entity_count": 8679,
+    "mean_avg_name_sim": 0.6185,
+    "mean_min_name_sim": 0.4639,
+    "mean_max_name_sim": 0.773,
+    "mean_avg_addr_sim": 0.4616,
+    "mean_min_addr_sim": 0.3266,
+    "mean_max_addr_sim": 0.5965
+  },
+  "3_matches": {
+    "entity_count": 11965,
+    "mean_avg_name_sim": 0.6188,
+    "mean_min_name_sim": 0.3806,
+    "mean_max_name_sim": 0.8405,
+    "mean_avg_addr_sim": 0.4636,
+    "mean_min_addr_sim": 0.2693,
+    "mean_max_addr_sim": 0.6599
+  },
+  "4_matches": {
+    "entity_count": 10887,
+    "mean_avg_name_sim": 0.6211,
+    "mean_min_name_sim": 0.3257,
+    "mean_max_name_sim": 0.8809,
+    "mean_avg_addr_sim": 0.4657,
+    "mean_min_addr_sim": 0.2367,
+    "mean_max_addr_sim": 0.6959
+  },
+  "5_plus_matches": {
+    "entity_count": 13024,
+    "mean_avg_name_sim": 0.6263,
+    "mean_min_name_sim": 0.2745,
+    "mean_max_name_sim": 0.9148,
+    "mean_avg_addr_sim": 0.4624,
+    "mean_min_addr_sim": 0.1936,
+    "mean_max_addr_sim": 0.7302
+  },
+  "elapsed_seconds": 1.07
+}

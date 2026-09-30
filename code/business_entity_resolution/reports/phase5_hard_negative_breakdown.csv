@@ -1,0 +1,13 @@
+category,train_count,val_count,val_percentage
+0_positive_match,48336,80244,2.19
+10_diff_business_same_addr,36,204,0.01
+11_other_blocker_candidate,62119,605185,16.54
+1_same_name_diff_addr,3258,25361,0.69
+2_similar_name_diff_addr,860,12681,0.35
+3_same_addr_diff_name,9,53,0.0
+4_same_postal_similar_name,0,1,0.0
+5_same_house_similar_name,520,6078,0.17
+6_generic_name_collision,5189,150375,4.11
+7_short_name_collision,154,384,0.01
+8_same_rare_token_diff_entity,111608,2775023,75.85
+9_transliteration_collision,72,3040,0.08

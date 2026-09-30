@@ -1,0 +1,7 @@
+stratum,fn_count,recovery_mechanism
+Branch/Franchise Ambiguity (bs > 0),141,Franchise-safe address & exact house disambiguation
+"Multi-Anchor below Cosine Guard (conn >= 2, cos < 0.45, bs == 0)",21,Topological multi-anchor consensus without cosine floor
+"Single-Anchor Graph Connected (conn == 1, bs == 0)",22,Single-anchor frontier expansion with address/name grounding
+"Multi-Hop Relational Closure (dist 2-5, bs == 0)",0,Transitive multi-hop closure propagation
+"Address-Dominant Unconnected (addr_jacc >= 0.30, bs == 0)",94,Address-anchored invariant match
+True Blocker Misses (outside 80-candidate pool),42,Upstream ANN index retrieval

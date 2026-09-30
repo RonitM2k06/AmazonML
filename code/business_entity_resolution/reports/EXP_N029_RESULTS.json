@@ -1,0 +1,22 @@
+{
+  "experiment": "EXP_N029",
+  "authoritative_baseline_metric_b": 0.987636,
+  "n029_evaluated_metric_b": 0.987636,
+  "delta_metric_b": 0.0,
+  "precision": 0.992541,
+  "recall": 0.976195,
+  "fp": 191,
+  "fn_model": 1975,
+  "fn_blocker": 42,
+  "total_fn": 2017,
+  "ablations": {
+    "N029-A": 0.987636,
+    "N029-B": 0.987636,
+    "N029-C": 0.987636,
+    "N029-D": 0.987636,
+    "N029-E": 0.987636,
+    "N029-F": 0.987636,
+    "N029-G": 0.987636
+  },
+  "timestamp": "2026-09-27 11:41:45"
+}

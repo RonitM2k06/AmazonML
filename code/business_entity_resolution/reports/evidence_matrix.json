@@ -1,0 +1,66 @@
+{
+  "total_pairs_evaluated": 173033,
+  "matrix": {
+    "Name Strong": {
+      "Address Strong": {
+        "count": 14943,
+        "percentage": 8.64,
+        "median_name_sim": 0.913,
+        "median_address_sim": 0.7949
+      },
+      "Address Weak": {
+        "count": 48314,
+        "percentage": 27.92,
+        "median_name_sim": 0.9118,
+        "median_address_sim": 0.4054
+      },
+      "Address Missing": {
+        "count": 3719,
+        "percentage": 2.15,
+        "median_name_sim": 0.9091,
+        "median_address_sim": 0.0
+      }
+    },
+    "Name Medium": {
+      "Address Strong": {
+        "count": 13221,
+        "percentage": 7.64,
+        "median_name_sim": 0.6522,
+        "median_address_sim": 0.8108
+      },
+      "Address Weak": {
+        "count": 36587,
+        "percentage": 21.14,
+        "median_name_sim": 0.6667,
+        "median_address_sim": 0.4028
+      },
+      "Address Missing": {
+        "count": 2297,
+        "percentage": 1.33,
+        "median_name_sim": 0.6818,
+        "median_address_sim": 0.0
+      }
+    },
+    "Name Weak": {
+      "Address Strong": {
+        "count": 9629,
+        "percentage": 5.56,
+        "median_name_sim": 0.2895,
+        "median_address_sim": 0.8286
+      },
+      "Address Weak": {
+        "count": 42774,
+        "percentage": 24.72,
+        "median_name_sim": 0.2,
+        "median_address_sim": 0.375
+      },
+      "Address Missing": {
+        "count": 1549,
+        "percentage": 0.9,
+        "median_name_sim": 0.2727,
+        "median_address_sim": 0.0
+      }
+    }
+  },
+  "elapsed_seconds": 0.28
+}

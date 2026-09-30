@@ -1,0 +1,9 @@
+experiment_id,timestamp,hypothesis,description,macro_f05,macro_precision,macro_recall,singleton_accuracy,status,promoted
+EXP_000,2026-09-25T22:34:00,Phase 5 Baseline Matcher,XGBoost 54 features with global threshold 0.96,0.950124,0.973834,0.902846,0.961980,COMPLETED,TRUE
+EXP_001,2026-09-25T22:39:18,Model Ensembling,Blend XGB_LGB_CAT (45/45/10) th=0.965,0.950545,0.975559,0.899802,0.968436,COMPLETED,TRUE
+EXP_002,2026-09-25T22:41:13,Anchor-Conditioned Dual Thresholding,Anchor>=0.98 Base>=0.965 Sec>=0.95,0.950092,0.972580,0.906290,0.968436,COMPLETED,FALSE
+EXP_003,2026-09-25T22:44:00,Tree Regularization & Feature Subsampling,XGB depth=7 colsample=0.80 th=0.965,0.950340,0.974400,0.902100,0.965600,COMPLETED,FALSE
+EXP_004,2026-09-25T22:45:34,Source-Specific Asymmetric Thresholds,th_S2=0.965 th_S3=0.965,0.950545,0.975559,0.899802,0.968436,COMPLETED,FALSE
+EXP_005,2026-09-25T22:47:21,Dynamic Margin-Relative Decision Optimization,Ensemble (45/45/10) Base=0.962 Delta=0.03,0.950700,0.977749,0.894298,0.965567,COMPLETED,TRUE
+EXP_006,2026-09-25T22:57:20,Candidate-Density Aware Entity-Level Modeling,Base=0.962 Dense=0.966 Cutoff=100 Delta=0.03,0.950841,0.977909,0.894418,0.969154,COMPLETED,TRUE
+EXP_007,2026-09-25T23:01:01,Transitive Cross-Source Consistency Bridge,Anchor=0.985 Bridge=0.938 Base=0.962 Delta=0.03,0.951463,0.976974,0.898266,0.969154,COMPLETED,TRUE

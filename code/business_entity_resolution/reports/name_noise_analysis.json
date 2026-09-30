@@ -1,0 +1,122 @@
+{
+  "total_pairs_evaluated": 173033,
+  "exact_string_match": {
+    "count": 7962,
+    "percentage": 4.6
+  },
+  "lowercase_match": {
+    "count": 18630,
+    "percentage": 10.77
+  },
+  "punctuation_normalized_match": {
+    "count": 37811,
+    "percentage": 21.85
+  },
+  "alphanumeric_normalized_match": {
+    "count": 38297,
+    "percentage": 22.13
+  },
+  "legal_suffix_stripped_match": {
+    "count": 67543,
+    "percentage": 39.03
+  },
+  "similarity_distributions": {
+    "character_similarity": {
+      "mean": 0.6224,
+      "median": 0.7,
+      "std": 0.2982,
+      "p25": 0.3929,
+      "p75": 0.878,
+      "p90": 0.9583,
+      "p95": 0.9744
+    },
+    "token_jaccard": {
+      "mean": 0.6421,
+      "median": 0.6667,
+      "std": 0.3349,
+      "p25": 0.5,
+      "p75": 1.0,
+      "p90": 1.0,
+      "p95": 1.0
+    },
+    "token_overlap": {
+      "mean": 0.775,
+      "median": 1.0,
+      "std": 0.347,
+      "p25": 0.6667,
+      "p75": 1.0,
+      "p90": 1.0,
+      "p95": 1.0
+    },
+    "token_set_similarity": {
+      "mean": 0.7556,
+      "median": 0.9189,
+      "std": 0.3161,
+      "p25": 0.5652,
+      "p75": 1.0,
+      "p90": 1.0,
+      "p95": 1.0
+    },
+    "token_sort_similarity": {
+      "mean": 0.6937,
+      "median": 0.8108,
+      "std": 0.2956,
+      "p25": 0.5,
+      "p75": 0.9275,
+      "p90": 1.0,
+      "p95": 1.0
+    },
+    "length_ratio": {
+      "mean": 0.86,
+      "median": 0.9143,
+      "std": 0.1627,
+      "p25": 0.7907,
+      "p75": 1.0,
+      "p90": 1.0,
+      "p95": 1.0
+    }
+  },
+  "noise_categories": {
+    "token_insertion_or_deletion": {
+      "count": 46166,
+      "percentage": 26.68
+    },
+    "minor_typo_or_spelling": {
+      "count": 31040,
+      "percentage": 17.94
+    },
+    "legal_suffix_difference": {
+      "count": 29246,
+      "percentage": 16.9
+    },
+    "punctuation_difference_only": {
+      "count": 19181,
+      "percentage": 11.09
+    },
+    "word_order_transposition": {
+      "count": 13194,
+      "percentage": 7.63
+    },
+    "case_difference_only": {
+      "count": 10668,
+      "percentage": 6.17
+    },
+    "exact_match": {
+      "count": 7962,
+      "percentage": 4.6
+    },
+    "script_transliteration_mismatch": {
+      "count": 6978,
+      "percentage": 4.03
+    },
+    "accent_or_unicode_only": {
+      "count": 6274,
+      "percentage": 3.63
+    },
+    "alphanumeric_normalized_only": {
+      "count": 486,
+      "percentage": 0.28
+    }
+  },
+  "elapsed_seconds": 4.93
+}

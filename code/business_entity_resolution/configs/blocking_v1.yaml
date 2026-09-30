@@ -1,0 +1,63 @@
+# Blocking V1 Configuration for Amazon ML Challenge 2026
+# Entity-Level Business Entity Resolution
+
+parameters:
+  max_bucket_size: 1000
+  max_candidates_per_s1: 200
+  partition_by_country: true
+
+strategies:
+  # Strategy A: Exact / Normalized Name
+  strategy_a1_exact_norm:
+    description: "Exact normalized name after legal suffix removal"
+    keys: ["exact_norm"]
+
+  strategy_a2_sorted_tokens:
+    description: "Alphabetically sorted token string"
+    keys: ["sorted_tokens"]
+
+  strategy_a_all_name:
+    description: "Full normalized name suite (exact + sorted + raw + alnum)"
+    keys: ["exact_norm", "sorted_tokens", "raw_norm", "alnum_norm"]
+
+  # Strategy B: Postal + Name
+  strategy_b_postal_name:
+    description: "Extracted postal/PIN code combined with significant name tokens"
+    keys: ["postal_name"]
+
+  # Strategy C: Address + Name
+  strategy_c_address_name:
+    description: "Street number and significant address token combined with name"
+    keys: ["address_name"]
+
+  # Strategy D: Character N-Gram
+  strategy_d_char_ngram:
+    description: "5-gram prefix with name length bracket"
+    keys: ["char_ngram"]
+
+  # Strategy E: Transliteration & Phonetics (India)
+  strategy_e_transliteration:
+    description: "Local Devanagari transliteration and Soundex encoding"
+    keys: ["transliteration", "phonetic"]
+
+  # Strategy F: Address-First
+  strategy_f_address_first:
+    description: "Exact normalized address and postal+house number"
+    keys: ["address_first"]
+
+  # Multi-Pass Unions
+  union_a:
+    description: "Exact Normalized Name + Postal + Name"
+    keys: ["exact_norm", "sorted_tokens", "postal_name"]
+
+  union_b:
+    description: "Union A + Address + Name"
+    keys: ["exact_norm", "sorted_tokens", "postal_name", "address_name"]
+
+  union_c:
+    description: "Union B + Character N-Gram"
+    keys: ["exact_norm", "sorted_tokens", "postal_name", "address_name", "char_ngram"]
+
+  union_d:
+    description: "Union C + Transliteration/Phonetic + Address-First"
+    keys: ["exact_norm", "sorted_tokens", "postal_name", "address_name", "char_ngram", "transliteration", "address_first"]

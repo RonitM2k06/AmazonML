@@ -1,0 +1,24 @@
+{
+  "experiment": "EXP_N027",
+  "authoritative_baseline_metric_b": 0.986756,
+  "n027_evaluated_metric_b": 0.987636,
+  "delta_metric_b": 0.0008799999999999919,
+  "precision": 0.992541,
+  "recall": 0.976195,
+  "fp": 191,
+  "fn_model": 1975,
+  "fn_blocker": 42,
+  "total_fn": 2017,
+  "recovered_blocker_misses": 362,
+  "total_blocker_misses": 404,
+  "ablations": {
+    "N027-A": 0.986413,
+    "N027-B": 0.986413,
+    "N027-C": 0.986413,
+    "N027-D": 0.98653,
+    "N027-E": 0.987636,
+    "N027-F": 0.987636,
+    "N027-G": 0.987636
+  },
+  "timestamp": "2026-09-27 11:32:01"
+}

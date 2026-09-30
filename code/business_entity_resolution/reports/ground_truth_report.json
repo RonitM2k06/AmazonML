@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-09-25 20:08:39",
+  "total_source1_entities": 2206821,
+  "singletons": {
+    "count": 123247,
+    "percentage": 5.58
+  },
+  "match_cardinality": {
+    "1_match": {
+      "count": 119157,
+      "percentage": 5.4
+    },
+    "2_match": {
+      "count": 375212,
+      "percentage": 17.0
+    },
+    "3_match": {
+      "count": 530841,
+      "percentage": 24.05
+    },
+    "4_plus_match": {
+      "count": 1058364,
+      "percentage": 47.96
+    }
+  },
+  "source_coverage": {
+    "s2_only": {
+      "count": 143029,
+      "percentage": 6.48
+    },
+    "s3_only": {
+      "count": 164498,
+      "percentage": 7.45
+    },
+    "both_s2_and_s3": {
+      "count": 1776047,
+      "percentage": 80.48
+    }
+  },
+  "total_matched_ids": 7638365,
+  "s2_matches": 3693619,
+  "s3_matches": 3944746,
+  "max_matches": 11,
+  "max_matches_entity_id": "S1-765235386",
+  "country_level_statistics": {
+    "US": {
+      "total_s1_entities": 1323633,
+      "singletons": 73896,
+      "singleton_percentage": 5.58,
+      "1_match_count": 71689,
+      "1_match_percentage": 5.42,
+      "2_match_count": 225285,
+      "2_match_percentage": 17.02,
+      "3_match_count": 318876,
+      "3_match_percentage": 24.09,
+      "4_plus_match_count": 633887,
+      "4_plus_match_percentage": 47.89,
+      "s2_only_count": 85827,
+      "s2_only_percentage": 6.48,
+      "s3_only_count": 98848,
+      "s3_only_percentage": 7.47,
+      "both_count": 1065062,
+      "both_percentage": 80.47,
+      "total_s2_matches": 2213074,
+      "total_s3_matches": 2365448,
+      "total_matches": 4578522,
+      "average_matches_per_entity": 3.46,
+      "max_matches": 11
+    },
+    "India": {
+      "total_s1_entities": 883188,
+      "singletons": 49351,
+      "singleton_percentage": 5.59,
+      "1_match_count": 47468,
+      "1_match_percentage": 5.37,
+      "2_match_count": 149927,
+      "2_match_percentage": 16.98,
+      "3_match_count": 211965,
+      "3_match_percentage": 24.0,
+      "4_plus_match_count": 424477,
+      "4_plus_match_percentage": 48.06,
+      "s2_only_count": 57202,
+      "s2_only_percentage": 6.48,
+      "s3_only_count": 65650,
+      "s3_only_percentage": 7.43,
+      "both_count": 710985,
+      "both_percentage": 80.5,
+      "total_s2_matches": 1480545,
+      "total_s3_matches": 1579298,
+      "total_matches": 3059843,
+      "average_matches_per_entity": 3.46,
+      "max_matches": 11
+    }
+  },
+  "integrity_audit": {
+    "missing_s1_in_train_source1": 0,
+    "missing_s2_in_train_source2": 0,
+    "missing_s3_in_train_source3": 0,
+    "self_matches": 0,
+    "intra_list_duplicates": 0,
+    "unknown_prefixes": 0,
+    "malformed_gt_rows": 0,
+    "unexpected_columns": false,
+    "test_source1_entities_required": 1732544
+  }
+}

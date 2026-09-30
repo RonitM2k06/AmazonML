@@ -1,0 +1,87 @@
+{
+  "experiment": "N039_NO_FRONTIER",
+  "base_champion_for_comparison": {
+    "macro_f_05": 0.99332,
+    "macro_precision": 0.993207,
+    "macro_recall": 0.994593,
+    "fp": 191,
+    "total_fn": 204
+  },
+  "overall": {
+    "macro_f_05": 0.994154,
+    "macro_precision": 0.994195,
+    "macro_recall": 0.994567,
+    "fp": 103,
+    "tp": 86026,
+    "fn_model": 164,
+    "fn_blocker": 42,
+    "total_fn": 206,
+    "n": 25000,
+    "pred_count": 86129
+  },
+  "splits": {
+    "singleton": {
+      "macro_f_05": 0.971589,
+      "macro_precision": 0.97151,
+      "macro_recall": 0.972222,
+      "fp": 15,
+      "tp": 1346,
+      "fn_model": 55,
+      "fn_blocker": 13,
+      "total_fn": 68,
+      "n": 2808,
+      "pred_count": 1361
+    },
+    "multi": {
+      "macro_f_05": 0.99701,
+      "macro_precision": 0.997065,
+      "macro_recall": 0.997394,
+      "fp": 88,
+      "tp": 84680,
+      "fn_model": 109,
+      "fn_blocker": 29,
+      "total_fn": 138,
+      "n": 22192,
+      "pred_count": 84768
+    },
+    "highcard": {
+      "macro_f_05": 0.999468,
+      "macro_precision": 0.999389,
+      "macro_recall": 0.999846,
+      "fp": 19,
+      "tp": 36515,
+      "fn_model": 5,
+      "fn_blocker": 0,
+      "total_fn": 5,
+      "n": 6476,
+      "pred_count": 36534
+    },
+    "US": {
+      "macro_f_05": 0.996045,
+      "macro_precision": 0.995995,
+      "macro_recall": 0.996718,
+      "fp": 77,
+      "tp": 51745,
+      "fn_model": 51,
+      "fn_blocker": 7,
+      "total_fn": 58,
+      "n": 14982,
+      "pred_count": 51822
+    },
+    "India": {
+      "macro_f_05": 0.991327,
+      "macro_precision": 0.991503,
+      "macro_recall": 0.991349,
+      "fp": 26,
+      "tp": 34281,
+      "fn_model": 113,
+      "fn_blocker": 35,
+      "total_fn": 148,
+      "n": 10018,
+      "pred_count": 34307
+    }
+  },
+  "validation_s1_ids_source": "experiments/validation_s1_ids.txt (REUSED, not copied -- same file as original N039 baseline)",
+  "candidate_pool_source": "experiments/val_pairs_n010.npz (REFERENCED, not duplicated)",
+  "timestamp": "2026-09-27 18:37:08"
+}

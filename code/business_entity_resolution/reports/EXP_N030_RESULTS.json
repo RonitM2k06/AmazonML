@@ -1,0 +1,23 @@
+{
+  "experiment": "EXP_N030",
+  "authoritative_baseline_metric_b": 0.988025,
+  "n030_evaluated_metric_b": 0.988552,
+  "delta_metric_b": 0.0005269999999999442,
+  "precision": 0.992552,
+  "recall": 0.97911,
+  "fp": 191,
+  "fn_model": 1693,
+  "fn_blocker": 42,
+  "total_fn": 1735,
+  "best_variant": "N030-C",
+  "ablations": {
+    "N030-A": 0.987636,
+    "N030-B": 0.987314,
+    "N030-C": 0.988552,
+    "N030-D": 0.987716,
+    "N030-E": 0.988198,
+    "N030-F": 0.988198,
+    "N030-G": 0.988025
+  },
+  "timestamp": "2026-09-27 11:47:45"
+}

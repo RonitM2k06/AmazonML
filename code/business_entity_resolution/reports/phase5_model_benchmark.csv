@@ -1,0 +1,4 @@
+macro_f_05,macro_precision,macro_recall,singleton_accuracy,singleton_false_positive_rate,exact_set_accuracy,total_entities,total_singletons,total_predicted_matches,total_true_matches,total_false_positives,total_false_negatives,model,train_time,inf_throughput,ram_mb
+0.949987,0.97267,0.905627,0.961263,0.038737,0.7274,25000,1394,79125,86232,1280,8387,lightgbm,3.71,872327.6,130.95
+0.948489,0.975123,0.894093,0.970588,0.029412,0.70656,25000,1394,77608,86232,843,9467,catboost,4.87,5851933.8,91.29
+0.950124,0.973834,0.902846,0.96198,0.03802,0.72372,25000,1394,78694,86232,1097,8635,xgboost,4.72,984932.2,139.31

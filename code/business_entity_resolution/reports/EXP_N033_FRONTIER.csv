@@ -1,0 +1,8 @@
+stratum,fn_count,recovery_mechanism
+"Length-2 Graph Reachable (p < 0.05, bs == 0)",715,Length-2 propagation without p threshold
+"Length-3 Graph Reachable (0.05 <= p < 0.20, bs == 0)",0,Length-3 propagation down to p >= 0.05
+Length-4+ Graph Reachable (bs == 0),0,Multi-hop length-4+ transitive closure
+High Address Jaccard (>=0.35) + Exact House Match (bs == 0),78,Address-anchored invariant match
+"High Neural Cosine (>=0.70, bs == 0)",197,Neural cross-script embedding rescue
+Unanchored S1 Entities (0 accepted siblings),170,Requires bootstrap anchor
+True Blocker Misses (outside 80-candidate pool),42,Upstream ANN index retrieval

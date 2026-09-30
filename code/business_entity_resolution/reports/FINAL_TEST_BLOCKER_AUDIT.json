@@ -1,0 +1,57 @@
+{
+  "partitions": {
+    "France": {
+      "s1_count": 259452,
+      "s2_targets": 703378,
+      "s3_targets": 731615,
+      "singletons": 7716,
+      "matched_entities": 251736,
+      "total_matches": 887163,
+      "mean_matches_per_entity": 3.419,
+      "total_candidates": 14579934,
+      "mean_candidates_per_entity": 56.195,
+      "elapsed_sec": 60.57
+    },
+    "US": {
+      "s1_count": 663106,
+      "s2_targets": 1871330,
+      "s3_targets": 1945701,
+      "singletons": 23716,
+      "matched_entities": 639390,
+      "total_matches": 1904375,
+      "mean_matches_per_entity": 2.872,
+      "total_candidates": 40805129,
+      "mean_candidates_per_entity": 61.536,
+      "elapsed_sec": 140.17
+    },
+    "India": {
+      "s1_count": 809986,
+      "s2_targets": 2312565,
+      "s3_targets": 2405000,
+      "singletons": 38604,
+      "matched_entities": 771382,
+      "total_matches": 2284569,
+      "mean_matches_per_entity": 2.821,
+      "total_candidates": 38053870,
+      "mean_candidates_per_entity": 46.981,
+      "elapsed_sec": 189.21
+    }
+  },
+  "system": "EXP_N039_FROZEN_CHAMPION",
+  "summary": {
+    "total_test_s1_entities": 1732544,
+    "singletons": 70036,
+    "singleton_rate": 0.0404,
+    "matched_entities": 1662508,
+    "matched_rate": 0.9596,
+    "total_matches_predicted": 5076107,
+    "mean_matches_per_s1": 2.93,
+    "total_candidates": 93438933,
+    "mean_candidates_per_s1": 53.932,
+    "matching_results_sha256": "d19eec1944e0773fc017f788a381d0caa57c6af888c239b23bb4e0e070bd49a1",
+    "matching_results_bytes": 87826750,
+    "candidate_pairs_sha256": "f460894a6e9b2b5042c85c2c2ef464c0c771255437a81ce6e670682182a42538",
+    "candidate_pairs_bytes": 1226806078,
+    "total_elapsed_sec": 397.17
+  }
+}
