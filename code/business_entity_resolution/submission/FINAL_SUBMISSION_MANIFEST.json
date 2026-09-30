@@ -1,0 +1,21 @@
+{
+  "challenge": "Amazon ML Challenge 2026",
+  "task": "Business Entity Resolution",
+  "frozen_champion": "EXP_N039",
+  "champion_validation_macro_f05": 0.99332,
+  "submission_files": [
+    {
+      "file": "matching_results.tsv",
+      "sha256": "d19eec1944e0773fc017f788a381d0caa57c6af888c239b23bb4e0e070bd49a1",
+      "bytes": 87826750,
+      "rows": 1732544
+    },
+    {
+      "file": "candidate_pairs.tsv",
+      "sha256": "f460894a6e9b2b5042c85c2c2ef464c0c771255437a81ce6e670682182a42538",
+      "bytes": 1226806078,
+      "rows": 1732544
+    }
+  ],
+  "created_at": "2026-09-27 14:48:07"
+}
