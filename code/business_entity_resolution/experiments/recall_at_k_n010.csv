@@ -1,0 +1,6 @@
+metric,value
+Recall@10,0.944116
+Recall@25,0.962531
+Recall@50,0.971171
+Recall@100,0.978094
+Recall@200,0.983336

@@ -1,0 +1,16 @@
+{
+  "experiment": "EXP_N021",
+  "champion_model": "corruption_aware_cross_script_rescue_EXP_N021",
+  "metric_b_complete_system_f05": 0.984264,
+  "metric_a_decision_layer_f05": 0.980829,
+  "metric_macro_precision": 0.993524,
+  "metric_macro_recall": 0.962567,
+  "eval_population_s1": 25000,
+  "total_false_positives": 105,
+  "total_false_negatives_model": 2866,
+  "total_false_negatives_blocker": 404,
+  "total_false_negatives": 3270,
+  "singleton_accuracy": 0.9928263988522238,
+  "multi_match_recall": 0.9620790425827999,
+  "timestamp": "2026-09-27T10:14:58"
+}

@@ -1,0 +1,25 @@
+{
+  "experiment": "EXP_N023",
+  "champion_model": "learned_prefix_boundary_xgb_EXP_N023",
+  "metric_b_complete_system_f05": 0.985939,
+  "metric_a_decision_layer_f05": 0.982555,
+  "metric_macro_precision": 0.992453,
+  "metric_macro_recall": 0.970758,
+  "eval_population_s1": 25000,
+  "total_false_positives": 198,
+  "total_false_negatives_model": 2121,
+  "total_false_negatives_blocker": 404,
+  "total_false_negatives": 2525,
+  "singleton_accuracy": 0.9928263988522238,
+  "multi_match_recall": 0.970718526765006,
+  "ablations": {
+    "N023-A": 0.984299,
+    "N023-B": 0.985238,
+    "N023-C": 0.984601,
+    "N023-D": 0.984711,
+    "N023-E": 0.984309,
+    "N023-F": 0.984309,
+    "N023-G": 0.985939
+  },
+  "timestamp": "2026-09-27T10:35:37"
+}

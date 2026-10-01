@@ -1,0 +1,25 @@
+{
+  "experiment": "EXP_N026",
+  "champion_model": "neural_entity_memory_set_completion_EXP_N026",
+  "metric_b_complete_system_f05": 0.986619,
+  "metric_a_decision_layer_f05": 0.983244,
+  "metric_macro_precision": 0.992397,
+  "metric_macro_recall": 0.973207,
+  "eval_population_s1": 25000,
+  "total_false_positives": 206,
+  "total_false_negatives_model": 1881,
+  "total_false_negatives_blocker": 404,
+  "total_false_negatives": 2285,
+  "singleton_accuracy": 0.9928263988522238,
+  "multi_match_recall": 0.9735017163002134,
+  "ablations": {
+    "N026-A": 0.986756,
+    "N026-B": 0.986416,
+    "N026-C": 0.986447,
+    "N026-D": 0.984534,
+    "N026-E": 0.986421,
+    "N026-F": 0.986614,
+    "N026-G": 0.986619
+  },
+  "timestamp": "2026-09-27T11:12:35"
+}

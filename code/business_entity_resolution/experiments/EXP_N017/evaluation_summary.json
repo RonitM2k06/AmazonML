@@ -1,0 +1,12 @@
+{
+  "metric_b_complete_system_f05": 0.982852,
+  "metric_a_decision_layer_f05": 0.979423,
+  "precision": 0.992578,
+  "recall": 0.959949,
+  "fp": 134,
+  "fn_model": 3133,
+  "fn_blocker": 404,
+  "total_fn": 3537,
+  "singleton_accuracy": 0.9885222381635581,
+  "multi_match_recall": 0.9589827442248817
+}

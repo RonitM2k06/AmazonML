@@ -1,0 +1,19 @@
+{
+  "iteration": 10,
+  "champion_model": "entity_graph_set_level_resolution_EXP_N018",
+  "decision_strategy": "set_level_multi_match_with_graph_consistency_gate",
+  "metric_macro_f05": 0.979616,
+  "metric_b_complete_system_f05": 0.98307,
+  "metric_macro_precision": 0.993181,
+  "metric_macro_recall": 0.959085,
+  "eval_population_s1": 25000,
+  "timestamp": "2026-09-27T09:35:00",
+  "experiment": "EXP_N018",
+  "val_blocker_recall": 0.995315,
+  "total_false_positives": 102,
+  "total_false_negatives_model": 3220,
+  "total_false_negatives_blocker": 404,
+  "total_false_negatives": 3624,
+  "singleton_accuracy": 0.994261,
+  "multi_match_recall": 0.957974
+}

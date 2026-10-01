@@ -1,0 +1,17 @@
+{
+  "experiment": "EXP_N019",
+  "champion_model": "listwise_collective_set_resolution_EXP_N019",
+  "decision_strategy": "unconstrained_collective_multi_match_optimal_calibrated_acceptance",
+  "metric_b_complete_system_f05": 0.983711,
+  "metric_a_decision_layer_f05": 0.980268,
+  "metric_macro_precision": 0.993197,
+  "metric_macro_recall": 0.961403,
+  "eval_population_s1": 25000,
+  "total_false_positives": 102,
+  "total_false_negatives_model": 2970,
+  "total_false_negatives_blocker": 404,
+  "total_false_negatives": 3374,
+  "singleton_accuracy": 0.9928263988522238,
+  "multi_match_recall": 0.96087299378421,
+  "timestamp": "2026-09-27T09:44:27"
+}

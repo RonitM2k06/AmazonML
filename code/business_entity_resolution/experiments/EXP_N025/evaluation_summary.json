@@ -1,0 +1,25 @@
+{
+  "experiment": "EXP_N025",
+  "champion_model": "cross_source_translation_specialist_EXP_N025",
+  "metric_b_complete_system_f05": 0.986741,
+  "metric_a_decision_layer_f05": 0.983368,
+  "metric_macro_precision": 0.992521,
+  "metric_macro_recall": 0.973258,
+  "eval_population_s1": 25000,
+  "total_false_positives": 195,
+  "total_false_negatives_model": 1878,
+  "total_false_negatives_blocker": 404,
+  "total_false_negatives": 2282,
+  "singleton_accuracy": 0.9928263988522238,
+  "multi_match_recall": 0.9735365061694035,
+  "ablations": {
+    "N025-A": 0.986756,
+    "N025-B": 0.986423,
+    "N025-C": 0.986278,
+    "N025-D": 0.98604,
+    "N025-E": 0.986555,
+    "N025-F": 0.986697,
+    "N025-G": 0.986741
+  },
+  "timestamp": "2026-09-27T11:08:32"
+}

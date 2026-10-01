@@ -1,0 +1,25 @@
+{
+  "experiment": "EXP_N024",
+  "champion_model": "recursive_latent_frontier_decoder_EXP_N024",
+  "metric_b_complete_system_f05": 0.986756,
+  "metric_a_decision_layer_f05": 0.983388,
+  "metric_macro_precision": 0.992543,
+  "metric_macro_recall": 0.973212,
+  "eval_population_s1": 25000,
+  "total_false_positives": 192,
+  "total_false_negatives_model": 1879,
+  "total_false_negatives_blocker": 404,
+  "total_false_negatives": 2283,
+  "singleton_accuracy": 0.9928263988522238,
+  "multi_match_recall": 0.9735249095463401,
+  "ablations": {
+    "N024-A": 0.985939,
+    "N024-B": 0.98649,
+    "N024-C": 0.986527,
+    "N024-D": 0.986082,
+    "N024-E": 0.986561,
+    "N024-F": 0.986731,
+    "N024-G": 0.986756
+  },
+  "timestamp": "2026-09-27T11:00:50"
+}
